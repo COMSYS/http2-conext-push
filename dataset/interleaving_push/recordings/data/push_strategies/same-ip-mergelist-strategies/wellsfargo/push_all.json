@@ -1,0 +1,81 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.wellsfargo.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/wellsfargo/captured.html",
+            "critical_css_file": "../../../css/wellsfargo/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+        {
+            "push_host": "www.wellsfargo.com",
+            "push_trigger": "/",
+            "push_resources": [
+                
+                "https://www01.wellsfargomedia.com/css/home/homepage_per.css",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-logo-horz.svg",
+                "https://www04.wellsfargomedia.com/assets/images/css/template/homepage/homepage-lock.svg",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-caret-selector.svg",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-lock-signon.svg",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/checking/1200x532/wfic239_ph_g-672544960_1200x532.jpg",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/credit-card/50x50/wfi111_ic_nba_default2_50x50.png",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/student-loans/50x50/wfi000_ic_b-graduation-hat-w_50x50.png",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/checking/wfi000_ic_b-building-house2-w_50x50.png",
+                "https://www04.wellsfargomedia.com/assets/images/homepage/icon-makeappt_50x50.png",
+                "https://www04.wellsfargomedia.com/assets/images/homepage/icon-rate_percent_50x50.png",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-borrowing-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-banking-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-retirement-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/woman-overhead-desk-computer-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/css/template/homepage/homepage-image-sprite.png",
+                "https://www01.wellsfargomedia.com/assets/images/global/homepage-footer-stagecoach.png",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-image-sprite.png",
+                "https://www04.wellsfargomedia.com/assets/images/global/icon-equal-housing.png",
+                "https://connect.secure.wellsfargo.com/auth/static/prefs/login-userprefs.min.js",
+                "https://www.wellsfargo.com/js/vendor/jquery-3.1.1.min.js",
+                "https://www.wellsfargo.com/js/global/homepage_per.js",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-magnifying-glass.png",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-signon-checkbox-inactive.svg",
+                "https://connect.secure.wellsfargo.com/auth/static/scripts/conutils-6.2.2.js",
+                "https://connect.secure.wellsfargo.com/auth/static/prefs/atadun.js",
+                "https://connect.secure.wellsfargo.com/jenny/nd",
+                "https://static.wellsfargo.com/tracking/toppages/utag.js",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-marquee-dot-active.svg",
+                "https://www01.wellsfargomedia.com/assets/images/css/template/homepage/homepage-marquee-dot-inactive.svg",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/credit-card/1200x532/wfic254_ph_g-186678901-cc002_1200x532.jpg",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/mortgage/1200x532/wfia484_ph_b-1009_00386_1200x532.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-fraud-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-homelending-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-college-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-investing-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/icons/homepage-NBA-protect-off-193x119.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/woman-phone-looking-cityscape-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/couple-smiling-water-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/man-moving-plant-shelf-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/college-students-group-steps-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/couple-computer-table-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/boy-standing-wall-measure-height-970x485.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/photography/lifestyle/man-sitting-phone-computer-970x485.jpg",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/checking/489x234/wfia081_ph_b7007_00117_489x234.jpg",
+                "https://www20.wellsfargomedia.com/assets/images/contextual/banner/savings/304x194/wfia432_ph_g132269213_304x194.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/homepage/wfi111_ph_hre_default2_304x194.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/homepage/wfi111_ph_hre_default3_304x194.jpg",
+                "https://www01.wellsfargomedia.com/assets/images/photography/lifestyle/wellsfargo-volunteers-building-house-414x240.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/homepage/stagecoach-two-drivers-field-green-414x240.jpg",
+                "https://www01.wellsfargomedia.com/assets/images/homepage/man-woman-handshake-office-lobby-stagecoach-414x240.jpg",
+                "https://www04.wellsfargomedia.com/assets/images/homepage/three-men-volunteer-house-414x240.jpg",
+                "https://www01.wellsfargomedia.com/assets/images/homepage/woman-sitting-chair-tablet-screenshot-414x240.jpg",
+                "https://www.wellsfargo.com/assets/images/icons/icon-normal-128x128.png",
+                "https://www.wellsfargo.com/assets/images/icons/icon-hires-192x192.png"
+                
+
+            ]
+        }
+    ]
+}

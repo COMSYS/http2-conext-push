@@ -1,0 +1,24 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"twitter.com",
+            "index_trigger_path": "/ohohlfeld",
+            "content_file": "../../../html/twitter/modified.html",
+            "critical_css_file": "../../../css/twitter/critical.css",
+            "offset_index": 51000,
+            "offset_compressed": 12000,
+            "critical_push_streams": 1
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "twitter.com",
+            "push_trigger": "/ohohlfeld",
+            "push_resources": [
+                "https://twitter.com/push__critical.css"
+            ]
+        }
+    ]
+}

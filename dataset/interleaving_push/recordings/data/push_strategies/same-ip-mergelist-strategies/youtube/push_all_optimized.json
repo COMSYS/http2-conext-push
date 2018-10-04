@@ -1,0 +1,45 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.youtube.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/youtube/modified.html",
+            "critical_css_file": "../../../css/youtube/critical.css",
+            "offset_index": 18000,
+            "offset_compressed": 7500,
+            "critical_push_streams": 2
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.youtube.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.youtube.com/push__critical.css",
+                "https://www.youtube.com/yts/htmlbin/desktop_polymer_sel_auto_home-vfl4jWoQb.html",
+                "https://www.youtube.com/yts/jsbin/scheduler-vflfK96zO/scheduler.js",
+                "https://www.youtube.com/yts/jsbin/www-tampering-vflBdRdix/www-tampering.js",
+                "https://www.youtube.com/yts/jsbin/www-prepopulator-vfl8hLntF/www-prepopulator.js",
+                "https://www.youtube.com/yts/jsbin/spf-vflRfjT3b/spf.js",
+                "https://www.youtube.com/yts/jsbin/network-vflNZTggj/network.js",
+                "https://www.youtube.com/yts/jsbin/web-animations-next-lite.min-vflqEtsI7/web-animations-next-lite.min.js",
+                "https://www.youtube.com/yts/jsbin/desktop_polymer-vflhXd3id/desktop_polymer.js",
+
+                "https://www.youtube.com/yts/cssbin/www-onepick-webp-vflsYL2Tr.css",
+                "https://www.youtube.com/yts/htmlbin/desktop_polymer_sel_auto_home_deferred-vflQKBPFZ.html",
+                "https://www.youtube.com/yts/img/favicon_32-vflOogEID.png",
+                "https://www.youtube.com/yts/img/favicon_48-vflVjB_Qk.png",
+                "https://www.youtube.com/yts/img/favicon_96-vflW9Ec0w.png",
+                "https://www.youtube.com/browse_ajax?ctoken=4qmFsgKDARIPRkV3aGF0X3RvX3dhdGNoGm5DQVY2VEVOcGQwRkJSMVoxUVVGR1JWSlJRVUpTUlZWQlFWRkNSMUpZWkc5WldGSm1aRWM1Wm1ReVJqQlpNbWRCUVZGQlFVRlJSVUpCUVVGQ1FVRkZRVUZDUVVGSFNqTnBkaTFUZFhrNVowTSUzREIA&itct=CD0Qui8iEwji-63krsvYAhXTGxUKHbBbD5oojh4%3D",
+                "https://www.youtube.com/yts/img/favicon_144-vfliLAfaB.png",
+                "https://www.youtube.com/yts/img/favicon-vfl8qSV2F.ico",
+                "https://www.youtube.com/csi_204?v=2&s=youtube&action=home&yt_sts=n&yt_lt=cold&icrc=180&icrt=125.3125&pc=1&is_nav=1&csn=YvZUWuLCKtO3VLC3vdAJ&p=h2&t=tcp&yt_vis=1&rc=&psc=1&yt_fn=what_to_watch&GetBrowse_rid=0xed8e0ed7784cb876&c=WEB&cver=2.20180108&yt_li=0&st=637&d_vpni=17&d_vpnfi=17&d_vpct=1515517540794.905&ncnp=2&vph=893&vpw=1199&vpst=0&rt=rsbe_dpsahh.816,rsae_dpsahh.1056,lpcs.1057,lpcf.1057,csl.1073,bs.1094,ai.1096,nc_pj.1128,rsbe_dpj.1128,rses_dpj.1257,cr_s.1308,cr_ic.1465,rsef_dpj.1487,rsae_dpj.1489,ac.1489,apr.1507,chps.1507,nd.1620,pda.1631,pdc.1533,pdr.1541,chls.1541,lps.1544,srt.759,nreqs.77,nress.759,nrese.798,ntcps.43,ntcpe.76,nstcps.43,rsf_sj.808,rse_sj.1012,rsf_dpj.809,rse_dpj.1011,rsf_dpsahh.808,rse_dpsahh.1040,pdl.1619,bcp.1632,cpt.1766,afl.1780,adl.1781,dl.2139,nct.2259,dhic.2327,vpl2.2354,ncl.2755,vpl.2354,ol.2354,aft.2354,ps.2929",
+                "https://www.youtube.com/yts/jsbin/player-vfluepRD8/en_US/base.js",
+                "https://www.youtube.com/yts/cssbin/player-vfl_z2Ycb/www-player-webp.css",
+                "https://www.youtube.com/yts/jsbin/player-vfluepRD8/en_US/remote.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,31 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.paypal.com",
+            "index_trigger_path": "/us/home",
+            "content_file": "../../../html/paypal/captured.html",
+            "critical_css_file": "../../../css/paypal/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.paypal.com",
+            "push_trigger": "/us/home",
+            "push_resources": [
+                "https://www.paypalobjects.com/eboxapps/css/8f/c3db75ade712988cd9d0a4815ecbf08983f24d.css",
+                "https://www.paypalobjects.com/eboxapps/css/1b/fa89f17d37eb3f97e39b926835ba73c0a3fd63.css",
+                "https://www.paypalobjects.com/eboxapps/css/1b/7f78f6171f8a9391002ca40fe7ae305ccfd69b.css",
+
+                "https://www.paypalobjects.com/eboxapps/js/f4/8ae60df0703b551783167040b5e9e02ef11003.js",
+                "https://www.paypalobjects.com/eboxapps/js/67/2602c176e644b62bcee70ea4f5efc5c05cecbb.js",
+                
+                "https://www.paypalobjects.com/tagmgmt/bs.js",
+                "https://www.paypalobjects.com/pa/js/min/pa.js"            ]
+        }
+    ]
+}

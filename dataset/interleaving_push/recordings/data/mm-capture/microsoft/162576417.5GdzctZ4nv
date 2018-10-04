@@ -1,0 +1,32 @@
+
+40.77.226.250»"Ï
+
+©POST /collect/v1?$mscomCookies=false&ext-javascript-msfpc=%27GUID%3D988320295d564f1982812ff53d12aeea%26HASH%3D9883%26LV%3D201801%26V%3D4%26LU%3D1515517559782%27 HTTP/1.1%
+Hostweb.vortex.data.microsoft.com
+
+Connection
+keep-alive
+Content-Length604
+Cache-Control	max-age=0#
+Originhttps://www.microsoft.comu
+
+User-AgentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36(
+Content-Typetext/plain;charset=UTF-8
+Accept*/*+
+Referer https://www.microsoft.com/de-de/$
+Accept-Encodinggzip, deflate, br!
+Accept-Languageen-US,en;q=0.9‚
+CookiexMC1=GUID=988320295d564f1982812ff53d12aeea&HASH=9883&LV=201801&V=4&LU=1515517559782; MS0=50923ba3000a4494a1b79c1a45882dceÜ{"ver":"2.1","name":"Ms.Webi.PageUnload","time":"2018-01-09T17:06:07.299Z","os":"Unix","appId":"JS:MicrosoftHP","cV":"7OiQSJddHEegNvBN.2","data":{"baseData":{"ver":"1.0","impressionGuid":"bf07cd85-9160-4b1c-8b77-9fe960a2b4db","pageName":"Homepage"},"baseType":"Ms.Content.PageUnload","dwellTime":7815,"scrollDepth":"0/2709","serverImpressionGuid":"d123eb7e-74e5-4d36-8d56-b39ca3543f04"},"ext":{"app":{"env":"onerf_prod"},"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"www.microsoft.com","msfpc":"GUID=988320295d564f1982812ff53d12aeea&HASH=9883&LV=201801&V=4&LU=1515517559782","userConsent":false}}}*±
+HTTP/1.1 200 OK#
+Cache-Controlno-cache, no-store
+Pragmano-cache
+Content-Length57 
+Content-Typeapplication/json
+Expires0!
+X-Content-Type-Optionsnosniff!
+MS-CVOVq/XlLXYkGxflIhCsRbiA.0u
+P3PnCP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"›
+Access-Control-Allow-Headers{Accept, Authorization, Content-Type, Origin, X-Xbl-Contract-Version, X-Xbl-Device-Type, Xbl-Authz-Actor-10, WithCredentials8
+Access-Control-Allow-Originhttps://www.microsoft.com(
+ Access-Control-Allow-Credentialstrue%
+DateTue, 09 Jan 2018 17:06:07 GMT9{"ipv":false,"pvm":null,"rej":0,"bln":0,"acc":1,"efi":[]}

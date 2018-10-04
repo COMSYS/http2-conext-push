@@ -1,0 +1,59 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.reddit.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/reddit/captured.html",
+            "critical_css_file": "../../../css/reddit/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+        {
+            "push_host": "www.reddit.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.redditstatic.com/reddit.pwYY487j8Ls.css",
+                "https://www.redditstatic.com/expando.gMzRK16vwrQ.css",
+                "https://www.redditstatic.com/crosspost-preview.De3P20Yb4PY.css",
+                "https://www.redditstatic.com/author-tooltip.uiV1oYrKgxk.css",
+                "https://www.redditstatic.com/listing-comments.AZZO7Kj_O88.css",
+                "https://www.redditstatic.com/popup-notification.6-JvPBpHWMo.css",
+                "https://www.redditstatic.com/desktoponboarding.oP012oDNUYw.css",
+                "https://www.redditstatic.com/videoplayer.KyNIfziOuOM.css",
+                "https://www.redditstatic.com/videoplayercontrols.kLASGfh2dfs.css",
+                
+                "https://www.redditstatic.com/reddit-init.en.T_cIohHmmZQ.js",
+                "https://www.redditstatic.com/videoplayer.3BkXhfMuN6k.js",
+                "https://reddit.com/static/pixel.png",
+                "https://www.redditstatic.com/reddit.en.CnYu7upcFgs.js",
+                "https://www.redditstatic.com/author-tooltip.S8LEVlF4bHM.js",
+                "https://www.redditstatic.com/moat/moatframe.js",
+                "https://www.redditstatic.com/droparrowgray.gif",
+                "https://www.redditstatic.com/sprite-reddit.bTLvdEETokI.png",
+                "https://www.redditstatic.com/throbber.gif",
+                "https://www.redditstatic.com/listingsignupbar-orbit-2.png",
+                "https://www.redditstatic.com/listingsignupbar-orbit-1.png",
+                "https://www.reddit.com/api/request_promo",
+                "https://www.redditstatic.com/sprite-expando.69EqpDZz3HM.png",
+                "https://www.reddit.com/static/pixel.png",
+                "https://www.redditstatic.com/infobar-icon-cookie.png",
+                "https://c.amazon-adsystem.com/aax2/apstag.js",
+                "https://e.reddit.com/v1?key=RedditFrontend1&mac=eeb8727d7e1a49467b71406a8600b6e37a386403141e1e98a14bfae06b2bf69b",
+                "https://www.redditstatic.com/logo.svg",
+                "https://www.google-analytics.com/plugins/ga/inpage_linkid.js",
+                "https://www.redditstatic.com/gtm-jail.jTMwZME_TT8.js",
+                "https://www.redditmedia.com/gtm?id=GTM-NDJTNB&cb=8CqR7FcToPI",
+                "https://www.redditstatic.com/gtm.aX_QHhLRPyo.js",
+                "https://www.redditstatic.com/desktop2x/img/favicon/favicon-32x32.png",
+                "https://www.redditstatic.com/desktop2x/img/favicon/favicon-16x16.png",
+                "https://www.redditstatic.com/desktop2x/img/favicon/favicon-96x96.png",
+                "https://www.redditstatic.com/desktop2x/img/favicon/android-icon-192x192.png"
+            ]
+        }
+    ]
+}

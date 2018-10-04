@@ -1,0 +1,30 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.nytimes.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/nytimes/captured.html",
+            "critical_css_file": "../../../css/nytimes/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.nytimes.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://typeface.nyt.com/css/zam5nzz.css",
+                "https://a1.nyt.com/assets/homepage/20171218-150818/css/homepage/styles.css",
+                "https://int.nyt.com/apps/portals/assets/portal-6d57ae10010ddcfe80e975e769c6947e.css",
+                "https://a1.nyt.com/fonts/css/fonts.css",
+                "https://a1.nyt.com/assets/homepage/20171218-150818/js/foundation/lib/framework.js",
+                "https://static01.nyt.com/images/2018/01/09/sports/09PLAYOFF-hp/09PLAYOFF-hp-largeHorizontal375.jpg",
+                "https://static01.nyt.com/images/2018/01/09/world/09USBriefing-Amcore2-sub/09USBriefing-Amcore2-sub-mediumFlexible177-v2.gif"
+            ]
+        }
+    ]
+}

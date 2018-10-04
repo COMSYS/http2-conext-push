@@ -1,0 +1,33 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"cologne.craigslist.de",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/craigslist/modified.html",
+            "critical_css_file": "../../../css/craigslist/critical.css",
+            "offset_index": 3010,
+            "offset_compressed": 1400,
+            "critical_push_streams": 1
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "cologne.craigslist.de",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://cologne.craigslist.de/push__critical.css",
+                "https://www.craigslist.org/js/general-concat.min.js?v=9be1608c325642d8302bf443fa13d143",
+                "https://www.craigslist.org/js/homepage-concat.min.js?v=ff0b5261251ed826de0fe68bcae0b7d1",
+                "https://www.craigslist.org/js/search-concat.min.js?v=c9fa94548a136143f2b7cd5c0247e0ce",
+
+                "https://www.craigslist.de/static/localstorage.html?v=51a29e41f8e978141e4085ed4a77d170",
+                "https://www.craigslist.org/styles/jquery-ui-clcustom.css?v=3b05ddffb7c7f5b62066deff2dda9339",
+                "https://www.craigslist.org/styles/cl.css?v=976095ba3b15faa904d947e8ee3c0c78",
+                "https://www.craigslist.org/styles/homepage.css?v=d55c9717c420ffaac3084bee07600e81",
+                "https://cologne.craigslist.de/favicon.ico"
+                ]
+        }
+    ]
+}

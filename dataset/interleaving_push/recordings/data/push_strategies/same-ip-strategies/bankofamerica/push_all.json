@@ -1,0 +1,25 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.bankofamerica.com",
+            "index_trigger_path": "/",
+            "content_file": "../../html/bankofamerica/captured.html",
+            "critical_css_file": "../../css/bankofamerica/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.bankofamerica.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/bac-logo.png",
+                "https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/colored_flagscape.png"
+            ]
+        }
+    ]
+}

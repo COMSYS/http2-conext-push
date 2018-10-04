@@ -1,0 +1,67 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.twitch.tv",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/twitch/modified.html",
+            "critical_css_file": "../../../css/twitch/critical.css",
+            "offset_index": 9300,
+            "offset_compressed": 2400,
+            "critical_push_streams": 4
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.twitch.tv",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.twitch.tv/push__critical.css",
+                "https://polyfill.twitchsvc.net/v2/polyfill.min.js?unknown=polyfill&flags=gated&features=default,URL,fetch,Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,Intl.~locale.en",
+                "https://static.twitchcdn.net/config/settings.96871720c31c0505fac342bb52a0bc42.js",
+                "https://custos.twitchcdn.net/v1.js",
+
+                "https://static.twitchcdn.net/assets/vendor-525adfe0eb97104be5ef44c8f65875d3.js",
+                "https://static.twitchcdn.net/assets/core-df782ab6012b03a59857222cccdf3599.js",
+                "https://static.twitchcdn.net/assets/pages.anon-front-59d0fca502b6a3684b262e7b6d5fd01e.js",
+                "https://static.twitchcdn.net/assets/homepage_gradient_background-4e041d518ac547864a0fffe9f1dc3d96.png",
+                "https://static.twitchcdn.net/assets/homepage_player_background-917af84661ea166012c8282e3ccb931a.jpg",
+                "https://static.twitchcdn.net/assets/homepage_social_background-9d42135d62571247820a35af5883177f.png",
+                "https://static.twitchcdn.net/assets/favicon-75270f9df2b07174c23ce844a03d84af.ico",
+                "https://static.twitchcdn.net/j.js",
+                "https://static-cdn.jtvnw.net/ttv-boxart/Fire%20Emblem:%20The%20Sacred%20Stones-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/PLAYERUNKNOWN%27S%20BATTLEGROUNDS-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/League%20of%20Legends-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/Hearthstone-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/IRL-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/Fortnite-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/Dota%202-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/Overwatch-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/Counter-Strike:%20Global%20Offensive-285x380.jpg",
+                "https://static-cdn.jtvnw.net/ttv-boxart/World%20of%20Warcraft-285x380.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_gamesdonequick-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_imaqtpie-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_ninja-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_silvername-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_jtgtv-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_imstilldadaddy1985-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_livethewhiteart-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_ekolimits-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_ohballatv-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_mika7474-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_gabgol7-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_nightfr0-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_xbox_alive-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_kalpzz-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_flaxh_-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_timelycook15-320x180.jpg",
+                "https://static-cdn.jtvnw.net/previews-ttv/live_user_neyphr_-320x180.jpg",
+                "https://player.twitch.tv/js/player.js",
+                "https://www.twitch.tv/experiments.json",
+                "https://static.twitchcdn.net/assets/core-04c1d4d4ad6be8e8bad7e7980a2bffbf.css",
+                "https://player.twitch.tv/css/player.css"
+            ]
+        }
+    ]
+}

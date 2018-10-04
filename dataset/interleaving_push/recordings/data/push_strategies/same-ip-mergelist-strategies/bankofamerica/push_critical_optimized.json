@@ -1,0 +1,32 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.bankofamerica.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/bankofamerica/modified.html",
+            "critical_css_file": "../../../css/bankofamerica/critical.css",
+            "offset_index": 10700,
+            "offset_compressed": 2600,
+            "critical_push_streams": 5
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.bankofamerica.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.bankofamerica.com/push__critical.css",
+                "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/platform/babel-polyfill.js",
+                "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/vendor/require/2.2.0/js/require.js",
+                "https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/bac-logo.png",
+                "https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/colored_flagscape.png",
+                "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-logos-boa-logo-CSXe4b047c0.svg",
+                "https://www2.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-super-highlights-card-en-Card_SHL1_ARNRM653_722_test.webp",
+                "https://www2.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-highlights-card-Card_HL2_ARNRM653_Icon.svg",
+                "https://www1.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-mastheads-consumer-enterprise-en-2018-01-05-AR4N3KJJ-mobile_jd_powers-mobile_mh_ar4n3kjj_1440.webp"
+                ]
+        }
+    ]
+}

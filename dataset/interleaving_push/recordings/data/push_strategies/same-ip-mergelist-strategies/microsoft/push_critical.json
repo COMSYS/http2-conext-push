@@ -1,0 +1,25 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.microsoft.com",
+            "index_trigger_path": "/de-de/",
+            "content_file": "../../../html/microsoft/captured.html",
+            "critical_css_file": "../../../css/microsoft/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+        {
+            "push_host": "www.microsoft.com",
+            "push_trigger": "/de-de/",
+            "push_resources": [
+                "https://uhf.microsoft.com/mscc/statics/mscc-0.3.7.min.css",
+                "https://uhf.microsoft.com/mscc/statics/mscc-0.3.7.min.js"
+            ]
+        }
+    ]
+}

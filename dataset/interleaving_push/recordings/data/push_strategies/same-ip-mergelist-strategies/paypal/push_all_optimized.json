@@ -1,0 +1,78 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.paypal.com",
+            "index_trigger_path": "/us/home",
+            "content_file": "../../../html/paypal/modified.html",
+            "critical_css_file": "../../../css/paypal/critical.css",
+            "offset_index": 12500,
+            "offset_compressed": 3700,
+            "critical_push_streams": 1
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.paypal.com",
+            "push_trigger": "/us/home",
+            "push_resources": [
+                "https://www.paypal.com/push__critical.css",
+                "https://www.paypalobjects.com/eboxapps/js/f4/8ae60df0703b551783167040b5e9e02ef11003.js",
+                "https://www.paypalobjects.com/eboxapps/js/67/2602c176e644b62bcee70ea4f5efc5c05cecbb.js",
+                
+                "https://www.paypalobjects.com/tagmgmt/bs.js",
+                "https://www.paypalobjects.com/pa/js/min/pa.js",
+
+
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/icon-psnl-free.png",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/icon-psnl-simple_signup.png",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/icon-psnl-dontretypecc.png",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/icon_biz_1-opt.png",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/icon_biz_2-opt.png",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/icon_biz_3-opt.png",
+                
+                "https://www.paypal.com/us/signin?country.x=US&locale.x=en_US",
+                "https://www.paypalobjects.com/webstatic/i/logo/rebrand/ppcom-white.svg",
+                "https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Medium.woff",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/bifurcated-personal-desktop.jpg",
+                "https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Light.woff",
+                "https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Regular.woff",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/bifurcated-business-desktop.jpg",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/na/us/home/paypal-on-devices-home.png",
+                "https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansBig-Regular.woff",
+                "https://www.paypalobjects.com/webstatic/mktg/2014design/font/PP-Sans/PayPalSansSmall-Bold.woff",
+                "https://www.paypalobjects.com/digitalassets/c/website/marketing/global/shared/global/country-worldwide/sprite_countries_flag4.png",
+                "https://www.paypalobjects.com/gajs/analytics.js",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/8db46309e6349886335823942737f697.js?conditionId0=378623",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/5d1f60932d2de7874f1413e7f0a60ccb.js?conditionId0=474093",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/248aabf4443966cb0328876d5797f914.js?conditionId0=380088",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/34991b7ef71f70aea175b18646183b7c.js?conditionId0=380088",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/f424d2932e2b5ebf7a30cd6b997cdcf5.js?conditionId0=380088",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/8c024cb0043360c0a183ef86569e5a97.js?conditionId0=422975",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/bcb41607f75ea330dedec9a4085353b5.js?conditionId0=422975",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/57c0f912006fed6af5e8ad35652688fa.js?conditionId0=422975",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/dbaad2f82257933cdc110875fd4862a1.js?conditionId0=422975",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/dd6797289466fcafceda54ba0fd683a6.js?conditionId0=422975",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/01f999dbe8972e3f86979480467b4c57.js?conditionId0=379384",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/4fd3d4fd7e2dae28394a57c820abfc8a.js?conditionId0=379384",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/56f6fcc6ec0c8a2f6630a4b681d5ad60.js?conditionId0=597156",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/8d6c38cba2c6ba608641dd96b5028c3d.js?conditionId0=381750",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/29a5567ef4e201afc0084cf6bf0cf984.js?conditionId0=472867",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/4fd3d4fd7e2dae28394a57c820abfc8a.js?conditionId0=472867",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/80663e54bf66b08ca5868db9f521c713.js?conditionId0=472867",
+                "https://www.paypalobjects.com/tagmgmt/codefiles/802b93f0fe41b41869a2e449e704709d.js?conditionId0=378623",
+                "https://www.paypalobjects.com/webstatic/icon/pp196.png",
+                "https://www.paypalobjects.com/webstatic/icon/pp196.png?01AD=3eFyALh-RblXbgaHvKCSwpf1s4AzjkjpDTscCcPPrrwNqthSKtdKOlg&01RI=851CA38E7AB328F&01NA=na",
+                "https://www.paypalobjects.com/webstatic/icon/pp32.png",
+                
+
+                "https://www.paypalobjects.com/eboxapps/css/8f/c3db75ade712988cd9d0a4815ecbf08983f24d.css",
+                "https://www.paypalobjects.com/eboxapps/css/1b/fa89f17d37eb3f97e39b926835ba73c0a3fd63.css",
+                "https://www.paypalobjects.com/eboxapps/css/1b/7f78f6171f8a9391002ca40fe7ae305ccfd69b.css",
+                
+                "https://www.paypalobjects.com/webstatic/icon/favicon.ico"
+            ]
+        }
+    ]
+}

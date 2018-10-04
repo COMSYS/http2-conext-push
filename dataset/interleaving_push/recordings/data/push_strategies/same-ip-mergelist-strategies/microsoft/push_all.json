@@ -1,0 +1,30 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.microsoft.com",
+            "index_trigger_path": "/de-de/",
+            "content_file": "../../../html/microsoft/captured.html",
+            "critical_css_file": "../../../css/microsoft/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+        {
+            "push_host": "www.microsoft.com",
+            "push_trigger": "/de-de/",
+            "push_resources": [
+                "https://uhf.microsoft.com/mscc/statics/mscc-0.3.7.min.css",
+                "https://uhf.microsoft.com/mscc/statics/mscc-0.3.7.min.js",
+                "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/Bold/latest.woff2",
+                "https://c.s-microsoft.com/static/fonts/segoe-ui/west-european/normal/latest.woff2",
+                "https://uhf.microsoft.com/_log?o=mscc&s=Microsoft.OneRenderFramework.Core&m=show&nv=aspnet-2.0.7&sv=0.1.2",
+                "https://c.s-microsoft.com/favicon.ico?v2",
+                "https://www.microsoft.com/store/buy/cartcount"
+            ]
+        }
+    ]
+}

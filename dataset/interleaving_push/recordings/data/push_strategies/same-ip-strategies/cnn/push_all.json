@@ -1,0 +1,36 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"edition.cnn.com",
+            "index_trigger_path": "/",
+            "content_file": "../../html/cnn/captured.html",
+            "critical_css_file": "../../css/cnn/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams":0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "edition.cnn.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://edition.cnn.com/css/2.57.3/global.css",
+                "https://edition.cnn.com/css/2.57.3/pages/page.css",
+                "https://edition.cnn.com/data/ocs/section/_intl-homepage-zone-injection/index.html:intl_homepage-injection-zone-1/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/index.html:intl_homepage1-zone-1/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/_intl-homepage-zone-injection/index.html:intl_homepage-injection-zone-2/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/index.html:intl_homepage1-zone-2/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/_intl-homepage-zone-injection/index.html:intl_homepage-injection-zone-3/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/index.html:intl_homepage1-zone-3/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/.a/2.57.3/assets/sprite-chrome.png",
+                "https://edition.cnn.com/data/ocs/section/_intl-homepage-zone-injection/index.html:intl_homepage-injection-zone-4/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/index.html:intl_homepage1-zone-4/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/data/ocs/section/index.html:intl_homepage2-zone-1/views/zones/common/zone-manager.izl",
+                "https://edition.cnn.com/favicon.ie9.ico"
+                ]
+        }
+    ]
+}

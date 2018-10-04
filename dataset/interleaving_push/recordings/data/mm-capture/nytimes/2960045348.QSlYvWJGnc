@@ -1,0 +1,41 @@
+
+52.6.238.215»"Ì
+POST / HTTP/1.1
+Hostet.nytimes.com
+
+Connection
+keep-alive
+Content-Length1584!
+Originhttps://www.nytimes.comu
+
+User-AgentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36(
+Content-Typetext/plain;charset=UTF-8
+Accept*/*#
+Refererhttps://www.nytimes.com/$
+Accept-Encodinggzip, deflate, br!
+Accept-Languageen-US,en;q=0.9{
+Cookieqvi_www_hp=z00; vistory=b00; nyt-a=OkmlE7PcwnpE0sMUrvPLCJ; optimizelyEndUserId=oeu1515517596325r0.7580034474537578°subject=ab-alloc&test=HOME_ComingUp&variant=control&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=HOME_NewsEvent2&variant=full&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=HOME_ElectionPrediction&variant=control&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=HOME_geoTrending&variant=Control&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=www-signup-favor-test&variant=4&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=www-readlater-test-1&variant=variant2Holdout&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=www-signup-favor-test-v3&variant=1&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=www-signup-favor-test-v4&variant=2&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=www-fabrik-off&variant=1&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=HP_AATest&variant=0&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=EC_DigiAbandonmentTest&variant=sendAbandonmentEmail&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=EC_HdAbandonmentTest&variant=sendAbandonmentEmail&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+subject=ab-alloc&test=EC_CrosswordsUpsellTest&variant=control&url=https%3A%2F%2Fwww.nytimes.com%2F&instant=1&skipAugment=true
+*û
+HTTP/1.1 200 OK(
+ Access-Control-Allow-Credentialstrue6
+Access-Control-Allow-Originhttps://www.nytimes.com 
+Content-Typeapplication/json%
+DateTue, 09 Jan 2018 17:06:37 GMTÒ
+
+Set-CookieÃet-a1=%257B%2522agentId%2522%253A%2522OkmlE7PcwnpE0sMUrvPLCJ%2522%252C%2522agentStarted%2522%253A1515517597711%252C%2522sessionIndex%2522%253A1%252C%2522sessionStarted%2522%253A1515517597711%252C%2522lastModified%2522%253A1515517597765%252C%2522lastUpdate%2522%253A1515517597765%257D; Domain=et.nytimes.com; Path=/; Expires=Wed, 09 Jan 2019 17:06:37 GMT, nyt-a=OkmlE7PcwnpE0sMUrvPLCJ; Domain=.nytimes.com; Path=/; Expires=Wed, 09 Jan 2019 17:06:37 GMT
+Content-Length310
+
+Connection
+keep-alive¶{"datumIds":["a54fd110dc6270db","3efefeb8435cae6e","349fcd5483050468","13b973fb9852eb0d","57f8fd73c5873e0b","9d993b5c65286986","96474f74d073e031","7bb5431d17e91b18","636849bba885c1a7","526dd82756220f35","9c30ac3a6cab4377","edc41158e1532dba","af9bd964f613fd49"],"agentId":"OkmlE7PcwnpE0sMUrvPLCJ","status":"OK"}

@@ -1,0 +1,58 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.apple.com",
+            "index_trigger_path": "/",
+            "content_file": "../../html/apple/captured.html",
+            "critical_css_file": "../../css/apple/critical.css",
+            "offset_index": 0,
+            "offset_compressed":0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.apple.com",
+            "push_trigger": "/",
+            "push_resources": [
+                    "https://www.apple.com/ac/globalnav/3/en_US/styles/ac-globalnav.built.css",
+                    "https://www.apple.com/ac/localnav/3.0/styles/ac-localnav.built.css",
+                    "https://www.apple.com/ac/globalfooter/3/en_US/styles/ac-globalfooter.built.css",
+                    "https://www.apple.com/ac/localeswitcher/1/styles/localeswitcher.built.css",
+                    "https://www.apple.com/wss/fonts?families=SF+Pro,v1%7CSF+Pro+Icons,v1",
+                    "https://images.apple.com/v/home/dn/built/styles/main.built.css",
+                    "https://images.apple.com/v/home/dn/built/scripts/head.built.js",
+                    "https://www.apple.com/ac/globalnav/3/en_US/scripts/ac-globalnav.built.js",
+                    "https://www.apple.com/metrics/ac-analytics/2.2/scripts/ac-analytics.js",
+                    "https://www.apple.com/ac/globalfooter/3/en_US/scripts/ac-globalfooter.built.js",
+                    "https://www.apple.com/ac/localeswitcher/1/scripts/localeswitcher.built.js",
+                    "https://images.apple.com/v/home/dn/built/scripts/main.built.js",
+                    "https://www.apple.com/ac/ac-films/5.1.0/styles/modal.css",
+                    "https://www.apple.com/ac/ac-films/5.1.0/scripts/autofilms.built.js",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/apple/image_large.svg",
+                    "https://www.apple.com/wss/fonts/SF-Pro-Text/v1/sf-pro-text_regular.woff2",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/mac/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/ipad/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/iphone/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/watch/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/tv/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/music/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/links/support/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/search/image_large.svg",
+                    "https://www.apple.com/ac/globalnav/3/en_US/images/globalnav/bag/image_large.svg",
+                    "https://www.apple.com/us/shop/bag/status?apikey=SFX9YPYY9PPXCU9KH",
+                    "https://www.apple.com/wss/fonts/SF-Pro-Text/v1/sf-pro-text_semibold.woff2",
+                    "https://images.apple.com/ac/flags/1/images/us/16.png",
+                    "https://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_semibold.woff2",
+                    "https://www.apple.com/wss/fonts/SF-Pro-Display/v1/sf-pro-display_regular.woff2",
+                    "https://images.apple.com/v/home/dn/images/logos/watch_series_3_promo_large.png",
+                    "https://images.apple.com/v/home/dn/images/logos/tv_4k_large.png",
+                    "https://www.apple.com/favicon.ico",
+                    "https://images.apple.com/v/home/dn/images/heroes/iphone-8/iphone_8_largetall.jpg",
+                    "https://images.apple.com/v/home/dn/images/heroes/iphone-x/iphone_x_largetall.jpg"
+                ]
+        }
+    ]
+}

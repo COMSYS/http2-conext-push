@@ -1,0 +1,29 @@
+
+104.109.91.50»"æ
+!POST /streams/v1/consume HTTP/1.1
+
+:authoritywww.bestbuy.com
+content-length103
+acceptapplication/json!
+originhttps://www.bestbuy.comu
+
+user-agentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36 
+content-typeapplication/json1
+referer&https://www.bestbuy.com/?intl=nosplash$
+accept-encodinggzip, deflate, br!
+accept-languageen-US,en;q=0.9Í
+cookieÂUID=c697dc1a-b2db-4d8e-a20f-a15ac9d4e56c, abt949=b, ltc=%20, oid=1100347807, testBucket=20, bby_rdp=l, bby_cbc_lb=p-browse-e, intl_splash=false, CTT=0d58873831cfb35ce8cf858aba94feb1, SID=d2705e94-7106-4e4f-b034-51815ba955dd, ak_bmsc=62610526BC50137A451537CE427DAB200210B5CE3A720000EEF6545A84F17D09~pl1Ka0d1+n0/LDGZxNqCkJ9ZvS8R7B+Rnee2HPfcTcT1FPTaDVeQSdHCNcKniITWLfzu/Ef+jd6VggYGkSN2CAd8s951MxGf+M9Cn5uNhFbDjFUphPQZuKvznm0xxqyXvgbDHVLSd9l13xp6u5GcYnguoMNAnV1e19hXK/suWyd7tO0raoZ/AWM0JnaMLQ1JkuuiF/rRC9J19k0Sm5cUo7YeZV/2HwQYQvwAsmW+3/2iNEa5klE267+FMTZNvMpbFSozPd3wwMVdnnKhm+ERw2izOCvOc/wH7tUMq465QQEG3Ohp3i5o+ySYTXxZ9neNZhV2QJrcncJeMOjQBxBRr+tg==, optimizelyProtocol=https, optimizelyEndUserId=oeu1515517680514r0.3056992677791939, bby_span_lb=p-span-e, bm_sv=6A2A930193B61D32F35BF06197B8C3C2~T8pbF1oEszD71/nVZlvX5mFGJWcrd2h005KKrNT1c4u5zLX0/cfnsYPdRhujK3QlfdmpueqXYxORm7HaGhY7mvHdiFkkFXcMuXhqamktMR7Vu4Gm4ub+40iYfjRRTPXbQebOpr8X1kcXTDcEEB8lI5ifE6/0ubuxLmj9QCVp9e0=g{"eventType":"PAGE_LOAD","catId":"cat00000","catName":"SiteControl: cat00000","pageType":"browse,home"}*’
+
+HTTP/1.1 200 OK
+content-length36.
+content-typeapplication/json;charset=UTF-8è
+
+set-cookieÙvt=a5fa6c11-f55f-11e7-9a87-0e8e717fd96e; Domain=.bestbuy.com; Expires=Mon, 09-Apr-2018 17:08:01 GMT; Path=/, bm_sv=6A2A930193B61D32F35BF06197B8C3C2~T8pbF1oEszD71/nVZlvX5mFGJWcrd2h005KKrNT1c4u5zLX0/cfnsYPdRhujK3QlfdmpueqXYxORm7HaGhY7mvHdiFkkFXcMuXhqamktMR5TOX1vk3zJ8aIjd7B4gYg9pH5RC1hAeV90SL6KVOw4yqK5B/3/qiy1MckbCr630oI=; Domain=.bestbuy.com; Path=/; Max-Age=7199; HttpOnly, bby_span_lb=p-span-e; expires=Tue, 09-Jan-2018 17:18:01 GMT; path=/; domain=.bestbuy.com, bm_sv=6A2A930193B61D32F35BF06197B8C3C2~T8pbF1oEszD71/nVZlvX5mFGJWcrd2h005KKrNT1c4u5zLX0/cfnsYPdRhujK3QlfdmpueqXYxORm7HaGhY7mvHdiFkkFXcMuXhqamktMR5wImBdlYo8NW5xKzhYdok0bEqKw+IBF7vC5pOV8jjYwveO2qyfv4owaIM++U739Vk=; Domain=.bestbuy.com; Path=/; Max-Age=7199; HttpOnly*
+vt$a5fa6c11-f55f-11e7-9a87-0e8e717fd96e6
+access-control-allow-originhttps://www.bestbuy.com(
+ access-control-allow-credentialstrue„
+x-employmenttIf you are reading this, consider a job at BestBuy.com http://www.bestbuy-jobs.com/job-family/all-corporate-careers/(
+expiresTue, 09 Jan 2018 17:08:01 GMT.
+cache-controlmax-age=0, no-cache, no-store
+pragmano-cache%
+dateTue, 09 Jan 2018 17:08:01 GMT$a5fa6c11-f55f-11e7-9a87-0e8e717fd96e

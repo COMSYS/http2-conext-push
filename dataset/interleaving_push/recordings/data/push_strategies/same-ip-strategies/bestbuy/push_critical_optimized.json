@@ -1,0 +1,31 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.bestbuy.com",
+            "index_trigger_path": "/?intl=nosplash%",
+            "content_file": "../../html/bestbuy/modified.html",
+            "critical_css_file": "../../css/bestbuy/critical.css",
+            "offset_index": 144872,
+            "offset_compressed": 33750,
+            "critical_push_streams": 2
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.bestbuy.com",
+            "push_trigger": "/?intl=nosplash%",
+            "push_resources": [
+                "https://www.bestbuy.com/push__critical.css",
+                "https://www.bestbuy.com/header-footer/fonts/headerFooterIcons-40cbe725b08360e4608c021fc973bd1f.ttf",
+                "https://www.bestbuy.com/fe52c663494923fd0ac60edb5632f1e9.woff",
+                "https://www.bestbuy.com/9f39f5aae3b77db805ea794e037f34fb.ttf",
+                "https://www.bestbuy.com/header-footer/fonts/myBBY-a22e24e97556a611a0b7de86e4d437a0.svg",
+                "https://www.bestbuy.com/header-footer/fonts/headerFooterIcons-541917077456e121e43f95067526e353.woff",
+                "https://www.bestbuy.com/76ce9dd73fa100a734b0991e7a53e143.svg",
+                "https://www.bestbuy.com/akam/10/1731aa7c"
+                ]
+        }
+    ]
+}

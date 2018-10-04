@@ -1,0 +1,2298 @@
+@font-face {
+  font-family: 'Open Sans';
+  font-style: normal;
+  font-weight: 400;
+  src: local('Open Sans'),url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/beta-apollo/src/font/open-sans.cd1c2929.eot?#iefix) format('embedded-opentype'),url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/beta-apollo/src/font/open-sans.cd1c2929.eot),url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/beta-apollo/src/font/open-sans.006320aa.woff) format('woff'),url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/beta-apollo/src/font/open-sans.b91bcbdf.ttf) format('truetype');
+}
+
+html {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  -webkit-text-size-adjust: 100%;
+  -ms-text-size-adjust: 100%;
+}
+
+a,
+body,
+dd,
+div,
+dl,
+dt,
+em,
+form,
+h2,
+h3,
+h4,
+html,
+iframe,
+img,
+li,
+p,
+span,
+ul {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+
+ul {
+  list-style: none;
+}
+
+ul {
+  list-style: disc;
+}
+
+li {
+  margin-left: 30px;
+  display: list-item;
+}
+
+dd {
+  margin: 0 0 0 40px;
+}
+
+p {
+  margin: 0 0 1.5em;
+}
+
+h2 {
+  margin-bottom: .75em;
+}
+
+h3 {
+  margin-bottom: 1em;
+}
+
+h4 {
+  margin-bottom: 1.25em;
+}
+
+b {
+  font-weight: 700;
+}
+
+img {
+  color: transparent;
+  font-size: 0;
+  border: 0;
+  vertical-align: middle;
+  -ms-interpolation-mode: bicubic;
+}
+
+a img {
+  border: none;
+}
+
+:focus {
+  outline: 0;
+}
+
+button,
+input {
+  margin: 0;
+  font-size: 100%;
+  vertical-align: middle;
+}
+
+button,
+input {
+  overflow: visible;
+  line-height: normal;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  padding: 0;
+  border: 0;
+}
+
+button,
+input[type=submit] {
+  -webkit-appearance: button;
+  border-radius: 0;
+  *overflow: visible;
+}
+
+button::-moz-focus-inner,
+input::-moz-focus-inner {
+  border: 0;
+  padding: 0;
+}
+
+a {
+  color: #06c;
+  text-decoration: none;
+}
+
+html {
+  font-size: 100%;
+}
+
+body {
+  font-size: 75%;
+  color: #000;
+  font-family: Open Sans,Arial,Helvetica,sans-serif,SimSun,"宋体";
+  line-height: 1.3;
+}
+
+h2,
+h3,
+h4 {
+  font-weight: 400;
+}
+
+h2 {
+  font-size: 2em;
+  line-height: 1;
+}
+
+h3 {
+  font-size: 1.5em;
+  line-height: 1;
+}
+
+h4 {
+  font-size: 1.2em;
+  line-height: 1.25;
+}
+
+* {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+:after,
+:before {
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+  box-sizing: border-box;
+}
+
+img {
+  vertical-align: middle;
+}
+
+.container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 760px;
+}
+
+@media \0screen {
+  .container {
+    width: 1200px\9;
+  }
+}
+
+.container:after,
+.container:before {
+  content: " ";
+  display: table;
+}
+
+.container:after {
+  clear: both;
+}
+
+@media (min-width:760px) {
+  .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+}
+
+@media (min-width:1020px) {
+  .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+  }
+}
+
+.col-lg-12,
+.col-lg-20,
+.col-lg-40,
+.col-md-20,
+.col-md-40 {
+  position: relative;
+  min-height: 1px;
+  padding-left: 0;
+  padding-right: 0;
+}
+
+@media (min-width:1020px) {
+  .col-md-20,
+  .col-md-40 {
+    float: left;
+  }
+
+  .col-md-40 {
+    width: 66.66666667%;
+  }
+
+  .col-md-20 {
+    width: 33.33333333%;
+  }
+}
+
+@media \0screen {
+  .col-lg-12,
+  .col-lg-20,
+  .col-lg-40,
+  .col-md-20,
+  .col-md-40 {
+    float: left\9;
+  }
+
+  .col-lg-40,
+  .col-md-40 {
+    width: 66.66666667%\9;
+  }
+
+  .col-lg-20,
+  .col-md-20 {
+    width: 33.33333333%\9;
+  }
+
+  .col-lg-12 {
+    width: 20%\9;
+  }
+}
+
+@-ms-viewport {
+  width: device-width;
+}
+
+@media (min-width:120px) and (max-width:1019px) {
+  .hidden-sm {
+    display: none!important;
+  }
+}
+
+@media (min-width:1020px) and (max-width:1259px) {
+  .hidden-md {
+    display: none!important;
+  }
+}
+
+.util-clearfix:after {
+  visibility: hidden;
+  display: block;
+  height: 0;
+  font-size: 0;
+  content: '\0020';
+  clear: both;
+}
+
+.util-clearfix {
+  zoom: 1;
+}
+
+.ui-fixed-panel {
+  z-index: 99;
+}
+
+.ui-fixed-panel-unit>a {
+  display: block;
+  width: 32px;
+  height: 32px;
+  margin-bottom: 5px;
+  text-decoration: none;
+  background: url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/beta-fixedpanel/src/img/fixed-panel-elements.e4854f23.png) no-repeat;
+}
+
+.ui-fixed-panel-tip-popup {
+  display: none;
+  max-width: 180px;
+  padding: 10px;
+  font: 12px/1;
+  border: 1px solid #CCC\9;
+  box-shadow: 0 0 7px #999;
+  line-height: 1.5;
+  background: #FFF;
+}
+
+:root .ui-fixed-panel-tip-popup {
+  border: 0;
+}
+
+.ui-fixed-panel-operation .ui-fixed-panel-unit>a {
+  opacity: .2;
+  border-radius: 16px;
+}
+
+.ui-fixed-panel-operation .ui-fixed-panel-unit>a.ui-fixed-panel-expand {
+  background-position: -64px 0;
+}
+
+.ui-fixed-panel-secondary {
+  margin-bottom: 25px;
+}
+
+.ui-fixed-panel-secondary .ui-fixed-panel-unit>a {
+  opacity: .4;
+}
+
+.ui-fixed-panel-qr-code>a {
+  opacity: .5;
+  background-position: 0 -32px;
+}
+
+.ui-fixed-panel-qr-code-popup {
+  width: 120px;
+  max-width: 120px;
+  padding: 10px;
+  text-align: center;
+  line-height: 1.2;
+  font-family: 'PT Sans Narrow';
+}
+
+.ui-fixed-panel-qr-code-tip {
+  margin-top: 4px;
+}
+
+.ui-fixed-panel-survey>a {
+  background-position: -32px -32px;
+}
+
+.ui-fixed-panel-shares {
+  margin-bottom: 15px;
+}
+
+.ui-fixed-panel-facebook>a {
+  background-position: -32px -64px;
+}
+
+.ui-fixed-panel-live.ui-fixed-panel-unit>a {
+  background-position: -96px 0;
+  background-image: url(https://i.alicdn.com/ae-wholesale-ui/common/img/fixed-panel-elements.ec450ca9.png);
+}
+
+.header .site-logo {
+  max-width: none;
+  width: 240px;
+}
+
+.header-categories {
+  display: none;
+}
+
+.home-firstscreen-main .categories-main {
+  margin-top: -1px;
+}
+
+.index-page {
+  background-color: #eee;
+}
+
+.ui-fixed-panel-qr-code-popup {
+  width: 160px;
+  max-width: 160px;
+}
+
+.top-container-bg {
+  background-color: #fff;
+  width: 100%;
+  height: 39px;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.home-firstscreen {
+  position: relative;
+  margin-top: -39px;
+}
+
+.home-firstscreen-main {
+  position: relative;
+  padding-left: 240px;
+  z-index: 1;
+}
+
+.home-firstscreen .categories {
+  position: absolute;
+  left: 0;
+  top: 0;
+}
+
+.home-firstscreen .categories-main {
+  width: 240px;
+}
+
+.channel-entrance {
+  position: relative;
+  padding-left: 20px;
+  height: 39px;
+  line-height: 39px;
+  overflow: hidden;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.channel-entrance a {
+  float: left;
+  margin-right: 20px;
+  color: #333;
+}
+
+.channel-entrance a.new-channel-menus {
+  position: relative;
+  margin-right: 52px;
+}
+
+.channel-entrance a.new-channel-menus:after {
+  position: absolute;
+  top: 12px;
+  right: -32px;
+  display: inline-block;
+  content: ' ';
+  background: url(https://i.alicdn.com/ae-wholesale-ui/common/img/home-sprite.52da3583.png) no-repeat 0 -450px;
+  width: 32px;
+  height: 15px;
+}
+
+.ui-banner-slider {
+  overflow: hidden;
+}
+
+.ui-banner-slider .ui-banner-slider-container {
+  overflow: hidden;
+  position: relative;
+  -webkit-transform: translateZ(0);
+}
+
+.ui-banner-slider .ui-banner-slider-slider {
+  width: 2500px;
+  padding: 0;
+  list-style: none;
+  overflow: hidden;
+}
+
+.ui-banner-slider .ui-banner-slider-slider:after {
+  content: '';
+  display: block;
+  clear: both;
+}
+
+.ui-banner-slider li {
+  margin: 0;
+  text-align: center;
+  float: left;
+  list-style: none;
+}
+
+.ui-banner-slider .ui-banner-slider-next,
+.ui-banner-slider .ui-banner-slider-prev {
+  background: url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/omega-banner-slider/src/img/banner-slider-buttons.0c979181.png) no-repeat;
+}
+
+.ui-banner-slider .ui-banner-slider-next,
+.ui-banner-slider .ui-banner-slider-prev {
+  position: absolute;
+  top: 50%;
+  margin-top: -25px;
+  width: 20px;
+  height: 50px;
+  background-color: #000;
+  overflow: hidden;
+  z-index: 1;
+  opacity: .4;
+  padding: 0 5px;
+  display: none;
+  visibility: hidden;
+}
+
+.device-tablet .ui-banner-slider .ui-banner-slider-next,
+.device-tablet .ui-banner-slider .ui-banner-slider-prev {
+  display: block;
+}
+
+.ui-banner-slider .ui-banner-slider-prev {
+  border-radius: 0 2px 2px 0;
+  left: 0;
+  text-indent: -999em;
+  overflow: hidden;
+}
+
+.ui-banner-slider .ui-banner-slider-next {
+  border-radius: 2px 0 0 2px;
+  right: 0;
+  text-indent: -999em;
+  overflow: hidden;
+  background-position: -29px 0;
+}
+
+.ui-banner-slider .ui-banner-slider-nav span {
+  float: left;
+  width: 10px;
+  height: 10px;
+  border-radius: 10px;
+  background-color: #FFF;
+  margin-left: 10px;
+  text-indent: -999px;
+  position: relative;
+}
+
+.ui-banner-slider .ui-banner-slider-nav span.current {
+  background-color: #E62E04;
+}
+
+.ui-banner-slider .ui-banner-slider-nav {
+  position: absolute;
+  bottom: 10px;
+  right: 15px;
+  z-index: 1;
+}
+
+
+
+#newuser-activity-config {
+  display: none;
+}
+
+.ui-newuser-layer-dialog {
+  width: 640px;
+  height: 440px;
+  background-color: #fff;
+  border: 0 none!important;
+  -moz-box-shadow: 0 0 0 0 transparent!important;
+  -webkit-box-shadow: 0 0 0 0 transparent!important;
+  box-shadow: 0 0 0 0 transparent!important;
+}
+
+.ui-window-normal.ui-newuser-layer-dialog * {
+  box-sizing: border-box;
+  -webkit-box-sizing: border-box;
+  -moz-box-sizing: border-box;
+}
+
+.ui-newuser-layer-dialog .ui-window-bd {
+  padding: 0;
+}
+
+.ui-newuser-layer-dialog .close-layer {
+  position: absolute;
+  right: 8px;
+  top: 8px;
+  width: 24px;
+  height: 24px;
+  display: block;
+  background: url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/omega-newuser/src/img/sprites-icon.b4f713be.png) no-repeat 0 0;
+  text-indent: -9999rem;
+  overflow: hidden;
+}
+
+.ui-newuser-layer-dialog .newuser-container {
+  width: 640px;
+  height: 440px;
+  padding-top: 65px;
+  overflow: hidden;
+  background-position: 0 0;
+  background-repeat: no-repeat;
+  color: #fff;
+  text-align: center;
+}
+
+.ui-newuser-layer-dialog .promotion-title {
+  margin-bottom: 5px;
+  font-size: 40px;
+  line-height: 55px;
+  height: 55px;
+  overflow: hidden;
+}
+
+.ui-newuser-layer-dialog .promotion-subtitle {
+  margin-bottom: 25px;
+  font-size: 14px;
+  line-height: 16px;
+  height: 16px;
+  overflow: hidden;
+}
+
+.ui-newuser-layer-dialog .newuser-coupon-info {
+  width: 294px;
+  height: 133px;
+  padding: 0 0 0 20px;
+  margin: 0 auto 25px;
+  background: url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/omega-newuser/src/img/sprites-icon.b4f713be.png) no-repeat -3px -53px;
+}
+
+.ui-newuser-layer-dialog .newuser-coupon-title {
+  float: left;
+  width: 20px;
+  height: 123px;
+  overflow: hidden;
+  padding: 5px 0;
+  font-size: 14px;
+  writing-mode: tb-rl;
+  -webkit-writing-mode: tb-rl;
+}
+
+.ui-newuser-layer-dialog .newuser-coupon-denomination {
+  float: left;
+  padding: 20px 0 0 20px;
+  width: 250px;
+  font-size: 72px;
+  line-height: 80px;
+}
+
+.ui-newuser-layer-dialog .newuser-promotion-enter a {
+  display: inline-block;
+  font-size: 14px;
+  color: #aa0014;
+  padding: 0 25px;
+  line-height: 35px;
+  background-color: #fff;
+}
+
+.advertise-main {
+  position: relative;
+  z-index: 1;
+  height: 400px;
+  overflow: hidden;
+}
+
+.advertise-main .ui-banner-slider-next,
+.advertise-main .ui-banner-slider-prev {
+  width: 30px;
+  padding: 0;
+}
+
+.key-visual-main {
+  position: relative;
+  height: 400px;
+  overflow: hidden;
+  z-index: 1;
+}
+
+.key-visual-main li {
+  list-style: none;
+}
+
+.advertise-main .sub-visual {
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 400px;
+  overflow: hidden;
+}
+
+.alert-subscribe-form .email-error-tips {
+  display: none;
+}
+
+.f-link-header {
+  font-size: 16px;
+  color: #333;
+  margin-bottom: 10px;
+}
+
+.f-link-list {
+  margin-bottom: 10px;
+}
+
+.f-link-list li {
+  margin: 0;
+  list-style: none;
+  line-height: 24px;
+}
+
+.f-link-list li a {
+  color: #999;
+  font-size: 12px;
+}
+
+.ui-window {
+  position: fixed;
+  _position: absolute;
+}
+
+.ui-window-normal {
+  background-color: #fff;
+  overflow: hidden;
+}
+
+.ui-window-bd {
+  padding: 20px 15px 15px 15px;
+}
+
+.ui-window-normal {
+  opacity: 0;
+  -moz-transform: scale(1.2);
+  -moz-box-shadow: 2px 5px 8px rgba(0,0,0,.25);
+  -webkit-box-shadow: 2px 5px 8px rgba(0,0,0,.25);
+  box-shadow: 2px 5px 8px rgba(0,0,0,.25);
+}
+
+.ui-window-transition {
+  opacity: 1;
+  -moz-transform: scale(1);
+}
+
+.ui-window-normal {
+  border: 1px solid #ccc;
+}
+
+.ui-button {
+  display: inline-block;
+  *display: inline;
+  *zoom: 1;
+  position: relative;
+  overflow: visible;
+}
+
+.ui-button.ui-button-primary {
+  margin: 0;
+  font-family: inherit;
+  font-weight: 700;
+  text-align: center;
+  vertical-align: middle;
+  -webkit-border-radius: 2px;
+  -moz-border-radius: 2px;
+  border-radius: 2px;
+  -webkit-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  -moz-box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+  box-shadow: 0 1px 2px 0 rgba(0,0,0,.1);
+}
+
+.ui-button-primary,
+.ui-button-primary:visited {
+  color: #fff;
+  border: 1px solid #e87b0e;
+  background-color: #ff9917;
+  background-image: -moz-linear-gradient(top,#ffab02,#ff8a28);
+  background-image: -ms-linear-gradient(top,#ffab02,#ff8a28);
+  background-image: -webkit-gradient(linear,0 0,0 100%,from(#ffab02),to(#ff8a28));
+  background-image: -webkit-linear-gradient(top,#ffab02,#ff8a28);
+  background-image: -o-linear-gradient(top,#ffab02,#ff8a28);
+  background-image: linear-gradient(top,#ffab02,#ff8a28);
+  background-repeat: repeat-x;
+  filter: progid:DXImageTransform.Microsoft.gradient(startColorstr='#ffab02', endColorstr='#ff8a28', GradientType=0);
+}
+
+#shopping-history .container {
+  margin-right: auto;
+  margin-left: auto;
+  padding-left: 0;
+  padding-right: 0;
+  width: 760px;
+}
+
+@media \0screen {
+  #shopping-history .container {
+    width: 1200px\9;
+  }
+}
+
+#shopping-history .container:after,
+#shopping-history .container:before {
+  content: " ";
+  display: table;
+}
+
+#shopping-history .container:after {
+  clear: both;
+}
+
+@media (min-width:760px) {
+  #shopping-history .container {
+    padding-left: 20px;
+    padding-right: 20px;
+    width: auto;
+  }
+}
+
+@media (min-width:1020px) {
+  #shopping-history .container {
+    padding-left: 15px;
+    padding-right: 15px;
+    width: auto;
+  }
+}
+
+#shopping-history {
+  position: fixed;
+  bottom: 0;
+  z-index: 98;
+  width: 100%;
+  background-color: #ddd;
+}
+
+#shopping-history .show-history {
+  display: inline-block;
+  font-size: 14px;
+  line-height: 40px;
+  position: absolute;
+  right: 0;
+  top: -40px;
+  padding: 0 12px;
+  border-bottom: 0;
+  background-color: #ddd;
+}
+
+#shopping-history .show-history:after {
+  content: '';
+  display: inline-block;
+  vertical-align: middle;
+  margin-left: 10px;
+  width: 14px;
+  height: 14px;
+  overflow: hidden;
+  background: url(https://i.alicdn.com/ae-wholesale-ui/node_modules/@alife/omega-shophis/src/img/history-icon.24b5d86f.png) no-repeat 0 -100px;
+}
+
+#shopping-history .shopping-history-content {
+  display: none;
+  height: 170px;
+  padding-top: 10px;
+}
+
+#shopping-history .shopping-history-list {
+  position: relative;
+}
+
+.industry-floor-recommend .container-inner {
+  display: none;
+  margin-top: 40px;
+  background-color: #fff;
+  height: 328px;
+  border-top: 2px solid #333;
+}
+
+.superdeals-entry {
+  height: 361px;
+  margin-top: 25px;
+  overflow: hidden;
+}
+
+.superdeals-entry .superdeals-top {
+  height: 48px;
+  background-color: #fff;
+  overflow: hidden;
+  margin-bottom: 1px;
+  border-top: 2px solid #E62E04;
+}
+
+.superdeals-entry .superdeals-top .deals-logo {
+  float: left;
+  font-weight: 700;
+  font-size: 20px;
+  color: #000;
+  line-height: 27px;
+  margin: 9px 0 10px 19px;
+}
+
+.superdeals-entry .deals-logo a {
+  color: #000;
+}
+
+.superdeals-entry .superdeals-top .currentBtn {
+  display: inline-block;
+  margin: 7px 0 7px 50px;
+  padding: 4px 18px 4px 19px;
+  font-size: 16px;
+  line-height: 24px;
+  color: #464646;
+}
+
+.superdeals-entry .superdeals-top .comingBtn {
+  display: inline-block;
+  padding: 4px 19px;
+  margin: 7px 0;
+  font-size: 16px;
+  color: #333;
+  line-height: 24px;
+}
+
+.superdeals-entry .superdeals-top .currentBtn.active {
+  background-color: #FF0A3C;
+  font-weight: 700;
+  color: #FFF;
+}
+
+.superdeals-entry .superdeals-top .view-more {
+  float: right;
+  margin: 13px 20px 14px 0;
+  font-size: 13px;
+  color: #333;
+  line-height: 19px;
+}
+
+.superdeals-entry .deals-loading {
+  position: relative;
+  top: -48px;
+  height: 361px;
+  background: url(https://i.alicdn.com/ae-wholesale-ui/common/img/loading-middle.16e340f8.gif) no-repeat center #fff;
+}
+
+.middle-promotion-wrap {
+  margin-top: 25px;
+}
+
+.middle-promotion-wrap .promotion-bg-img {
+  text-align: center;
+}
+
+.middle-promotion-wrap .promotion-bg-img img {
+  max-width: 100%;
+}
+
+.middle-promotion-wrap .button-entrance-box {
+  min-height: 40px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.middle-promotion-wrap .entrance-inner {
+  display: inline-block;
+  width: 190px;
+  height: 40px;
+  margin: 10px 8px 0 0;
+  list-style: none;
+}
+
+.middle-promotion-wrap .entrance-inner a {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  border-width: 3px;
+  border-style: solid;
+  -webkit-border-radius: 100px;
+  -moz-border-radius: 100px;
+  border-radius: 100px;
+  font-size: 14px;
+  text-align: center;
+}
+
+.middle-promotion-wrap .entrance-inner span {
+  position: absolute;
+  width: 100%;
+  top: 50%;
+  left: 50%;
+  padding: 0 10px;
+  -webkit-transform: translate(-50%,-50%);
+  -moz-transform: translate(-50%,-50%);
+  -ms-transform: translate(-50%,-50%);
+  -o-transform: translate(-50%,-50%);
+  transform: translate(-50%,-50%);
+  overflow: hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+  -webkit-line-clamp: 2;
+  line-height: 16px;
+}
+
+.cl-item .sub-cate {
+  min-width: 735px;
+}
+
+@media (max-width:1019px) {
+  .cl-item .sub-cate {
+    min-width: 265px;
+  }
+}
+
+.css_flag {
+  display: block;
+  float: left;
+  padding: 0 0 0 25px;
+  line-height: 15px;
+  background: url(https://i.alicdn.com/ae-header/20180102150215/node_modules/@alife/omega-country-flag/img/sprites_countryFlag_s_fix_2.png) no-repeat;
+}
+
+.css_us {
+  background-position: 0 -20880px;
+}
+
+.top-banner-container {
+  min-width: 720px;
+  height: 80px;
+  overflow: hidden;
+}
+
+.top-banner-container a {
+  display: block;
+  width: 100%;
+  height: 100%;
+  text-indent: -9999rem;
+  background-repeat: no-repeat;
+  background-position: center top;
+}
+
+.ng-switcher .switcher-info {
+  position: relative;
+  display: block;
+  line-height: 32px;
+}
+
+.ng-switcher .switcher-info:before {
+  display: none;
+  content: '';
+  position: absolute;
+  right: 3px;
+  top: 34px;
+  z-index: 14;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+}
+
+.ng-switcher .switcher-info .ship-to {
+  position: relative;
+  padding-right: 25px;
+}
+
+.ng-switcher .switcher-info .css_flag {
+  float: none;
+  display: inline-block;
+  vertical-align: middle;
+  margin: 2px -25px 0 3px;
+  height: 14px;
+}
+
+.ng-switcher .switcher-info .currency {
+  display: inline-block;
+  width: 30px;
+  text-align: center;
+}
+
+.ng-switcher .switcher-sub {
+  display: none;
+  position: absolute;
+  top: 33px;
+  right: -1px;
+  width: 330px;
+  border: 1px solid #ccc;
+  font-size: 13px;
+  line-height: 1.3;
+  background: #fff;
+  z-index: 20;
+  box-shadow: 0 3px 5px 0 rgba(51,51,51,.3);
+}
+
+.ng-switcher .switcher-sub .switcher-common {
+  z-index: 999;
+  padding: 10px 20px 15px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.ng-switcher .switcher-sub .item {
+  padding: 5px 0 0;
+}
+
+.ng-switcher .switcher-title {
+  display: block;
+  padding: 10px 0;
+  color: #666;
+  border-bottom: 1px solid #E9E9E9;
+}
+
+.ng-switcher .label {
+  display: block;
+  padding: 5px 20px 5px 0;
+  color: #666;
+}
+
+.ng-switcher .switcher-shipto-c {
+  position: relative;
+  color: #333;
+}
+
+.ng-switcher .country-selector {
+  min-height: 30px;
+  width: 100%!important;
+}
+
+.ng-switcher #google_translate_element:after {
+  content: '';
+  position: absolute;
+  top: 13px;
+  right: 10px;
+  width: 7px;
+  height: 4px;
+  overflow: hidden;
+  background: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/header-sprite.png) no-repeat -300px 0;
+  border: 0 none;
+}
+
+.ng-switcher .switcher-currency-c {
+  position: relative;
+}
+
+.ng-switcher #google_translate_element {
+  position: relative;
+  padding: 5px 13px 5px 5px;
+}
+
+.ng-switcher #site-nav-google-translate {
+  height: 28px;
+}
+
+.ng-switcher .google-trans-btn {
+  display: none;
+  border: 1px solid #D6D6D6;
+  margin: 10px 20px 20px;
+}
+
+.ng-switcher .switcher-sub .item.switcher-btn {
+  text-align: right;
+  padding-top: 15px;
+}
+
+.ng-switcher .switcher-btn button {
+  padding: 5px 15px;
+  border: 0 none;
+  font: 200 14px/22px arial;
+  color: #fff;
+  background-color: #e62e04;
+  border-radius: 3px;
+  background-image: none;
+  filter: none;
+}
+
+.ng-switcher .switcher-site-list {
+  position: relative;
+}
+
+.ng-switcher .switcher-site-list li {
+  margin-left: 0;
+  list-style: none;
+  line-height: 32px;
+}
+
+.ng-switcher .switcher-site-list li a {
+  color: #333;
+  display: block;
+  line-height: 32px;
+  padding: 0 20px;
+}
+
+.nav-global .ng-item.ng-switcher-language {
+  padding: 0;
+}
+
+.nav-global .ng-switcher-language .switcher-language {
+  position: relative;
+  display: block;
+  padding: 0 28px 0 10px;
+}
+
+.nav-global .ng-switcher-language .switcher-language:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 8px;
+  height: 5px;
+  overflow: hidden;
+  background: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/header-sprite.png) no-repeat -350px -50px;
+}
+
+.nav-global .ng-switcher-language .switcher-sub {
+  width: 240px;
+  padding: 10px 0 0;
+}
+
+.ui-autocomplete {
+  margin: -1px 0 0 -15px;
+  width: 460px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.site-download-header a {
+  display: block;
+  width: 100%;
+}
+
+.site-download-header img {
+  width: 100%;
+}
+
+.top-lighthouse {
+  position: relative;
+  height: 36px;
+  width: 100%;
+  border-bottom: 1px solid #e9e9e9;
+  background-color: #f8f8f8;
+  z-index: 22;
+  font-size: 12px;
+}
+
+.top-lighthouse .container {
+  position: relative;
+}
+
+.nav-global {
+  position: absolute;
+  right: 0;
+  top: 0;
+}
+
+.nav-global .ng-item {
+  position: relative;
+  float: left;
+  padding: 0 15px;
+  height: 35px;
+  line-height: 35px;
+  border-right: 1px solid #e9e9e9;
+}
+
+.nav-global .ng-item:last-child {
+  border-right: 0 none;
+}
+
+.nav-global .ng-item a {
+  color: #999;
+}
+
+.nav-global .ng-sub {
+  padding: 0;
+}
+
+.nav-global .ng-sub-title,
+.nav-global .ng-switcher .switcher-info {
+  position: relative;
+  display: block;
+  padding: 0 28px 0 10px;
+  color: #999;
+  line-height: 35px;
+  font-size: 12px;
+}
+
+.nav-global .ng-sub-title:after,
+.nav-global .ng-switcher .switcher-info:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 8px;
+  height: 5px;
+  overflow: hidden;
+}
+
+.nav-global .ng-sub-list {
+  display: none;
+  position: absolute;
+  top: 33px;
+  left: -1px;
+  background-color: #fff;
+  z-index: 2;
+}
+
+.nav-global .ng-sub-list li {
+  margin-left: 0;
+  list-style: none;
+}
+
+.nav-global .ng-sub-list li a {
+  display: block;
+  padding: 0 10px;
+  line-height: 35px;
+  height: 35px;
+  white-space: nowrap;
+}
+
+.nav-global .ng-switcher {
+  padding: 0;
+}
+
+.nav-global .ng-mobile a {
+  position: relative;
+  padding-left: 16px;
+  display: inline-block;
+  line-height: 18px;
+  margin-top: 9px;
+}
+
+.nav-global .ng-mobile a:before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 2px;
+  width: 10px;
+  height: 18px;
+  overflow: hidden;
+}
+
+.site-logo .logo-base {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -38px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .site-logo .logo-base {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -28px;
+  }
+}
+
+.new-categories-main .cl-item-women .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -3044px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-women .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -2264px;
+  }
+}
+
+.new-categories-main .cl-item-men .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -2175px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-men .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -1643px;
+  }
+}
+
+.new-categories-main .cl-item-phones .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -2263px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-phones .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -1711px;
+  }
+}
+
+.new-categories-main .cl-item-computer .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -675px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-computer .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -513px;
+  }
+}
+
+.new-categories-main .cl-item-electronics .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -763px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-electronics .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -581px;
+  }
+}
+
+.new-categories-main .cl-item-jewelry .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -1065px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-jewelry .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -813px;
+  }
+}
+
+.new-categories-main .cl-item-autoParts .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -311px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-autoParts .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -229px;
+  }
+}
+
+.new-categories-main .cl-item-shoes .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -399px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-shoes .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -297px;
+  }
+}
+
+.new-categories-main .cl-item-toys .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -1153px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-toys .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -881px;
+  }
+}
+
+.new-categories-main .cl-item-sports .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -2768px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-sports .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -2116px;
+  }
+}
+
+.new-categories-main .cl-item-beauty .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -487px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-beauty .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -365px;
+  }
+}
+
+.new-categories-main .cl-item-garden .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -851px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-garden .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -649px;
+  }
+}
+
+.new-categories-main .cl-item-homeImprovement .cate-name span:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -939px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .new-categories-main .cl-item-homeImprovement .cate-name span:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -717px;
+  }
+}
+
+.nav-cart a:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -575px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .nav-cart a:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -433px;
+  }
+}
+
+.header .nav-wishlist>a:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -2856px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .header .nav-wishlist>a:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -2184px;
+  }
+}
+
+.header .user-account-info:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -2668px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .header .user-account-info:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -2036px;
+  }
+}
+
+.nav-global .ng-sub-title:after,
+.nav-global .ng-switcher .switcher-info:after,
+.searchbar-form .search-category:after {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -198px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .nav-global .ng-sub-title:after,
+  .nav-global .ng-switcher .switcher-info:after,
+  .searchbar-form .search-category:after {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -146px;
+  }
+}
+
+.nav-global .ng-mobile a:before {
+  background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons-s7ceb5615b6.png);
+  background-position: 0 -1027px;
+  background-repeat: no-repeat;
+}
+
+@media (-webkit-min-device-pixel-ratio:2),(min-resolution:2dppx) {
+  .nav-global .ng-mobile a:before {
+    background-image: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/icons_x2-s5df4356ff1.png);
+    background-size: 166px 2322px;
+    background-position: 0 -785px;
+  }
+}
+
+.categories-main {
+  width: 240px;
+  border: 1px solid #e9e9e9;
+  background-color: #fff;
+  font-size: 13px;
+}
+
+.categories-main .categories-content-title {
+  background-color: #f2f2f2;
+  padding-left: 10px;
+  line-height: 38px;
+  height: 39px;
+  color: #333;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.categories-main .categories-content-title span {
+  font-weight: 700;
+  margin-right: 10px;
+}
+
+.categories-main .categories-content-title a {
+  color: #666;
+  font-size: 12px;
+}
+
+.categories-main .categories-list-box {
+  position: relative;
+}
+
+.cl-item .sub-cate {
+  display: none;
+  position: absolute;
+  top: -1px;
+  left: 238px;
+  margin-left: 0;
+  background-color: #fff;
+  border: 1px solid #e9e9e9;
+  z-index: 99;
+}
+
+.cl-item .cate-name {
+  position: relative;
+}
+
+.cl-item .cate-name span {
+  position: relative;
+  display: block;
+  padding-left: 20px;
+  height: 30px;
+  line-height: 28px;
+  background-color: #fff;
+  border: 1px solid #fff;
+  border-right: 0 none;
+}
+
+.cl-item .cate-name span a {
+  color: #333;
+}
+
+.new-categories-main .cl-item .cate-name span {
+  padding-left: 40px;
+}
+
+.new-categories-main .cl-item .cate-name span:before {
+  display: block;
+  position: absolute;
+  left: 10px;
+  top: 2px;
+  content: ' ';
+  width: 24px;
+  height: 24px;
+  vertical-align: top;
+}
+
+.cl-item:first-child .cate-name span {
+  padding-top: 5px;
+  height: 35px;
+}
+
+.cl-item:first-child .cate-name span:before {
+  top: 7px;
+}
+
+.cl-item:last-child .cate-name span {
+  padding-bottom: 4px;
+  height: 35px;
+}
+
+.header-categories {
+  position: absolute;
+  left: 184px;
+  top: 0;
+  width: 46px;
+  height: 84px;
+}
+
+.header-categories:after {
+  content: '';
+  position: absolute;
+  top: 23px;
+  left: 0;
+  width: 46px;
+  height: 40px;
+  overflow: hidden;
+  background: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/header-sprite.png) no-repeat -500px -50px;
+}
+
+.header-categories .categories-title {
+  overflow: hidden;
+  width: 100%;
+  height: 100%;
+  display: block;
+  text-indent: -999em;
+}
+
+.header-categories .balloon-arrow {
+  position: absolute;
+  left: 13px;
+  bottom: 18px;
+  display: none;
+  width: 22px;
+  height: 10px;
+  overflow: hidden;
+  background: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/header-sprite.png) no-repeat -600px -50px;
+  z-index: 10;
+}
+
+@media (max-width:1019px) {
+  .cl-item .sub-cate {
+    left: 237px;
+  }
+}
+
+.searchbar-form {
+  position: relative;
+  width: 100%;
+}
+
+.searchbar-form .search-key-box {
+  position: relative;
+  width: auto;
+  overflow: hidden;
+  height: 40px;
+  padding: 0 0 0 15px;
+  border: 1px solid #cbcbcb;
+  border-right: 0 none;
+  border-radius: 3px 0 0 3px;
+}
+
+.searchbar-form .search-key-box input {
+  position: relative;
+  display: block;
+  width: 100%;
+  height: 100%;
+  padding: 11px 10px 11px 0;
+  line-height: 18px;
+  font-size: 13px;
+  border: 0 none;
+  font-family: arial;
+}
+
+.searchbar-form .searchbar-operate-box {
+  position: relative;
+  float: right;
+  padding-right: 50px;
+}
+
+.searchbar-form .search-category {
+  position: relative;
+  height: 40px;
+  border-top: 1px solid #cbcbcb;
+  border-bottom: 1px solid #cbcbcb;
+}
+
+.searchbar-form .search-category:after {
+  content: '';
+  position: absolute;
+  top: 16px;
+  right: 15px;
+  width: 8px;
+  height: 5px;
+  overflow: hidden;
+  z-index: 2;
+}
+
+.searchbar-form .search-cate-title {
+  position: relative;
+  padding: 0 33px 0 15px;
+  height: 38px;
+  border-left: 1px solid #eee;
+  overflow: hidden;
+}
+
+.searchbar-form .search-category-value {
+  position: relative;
+  display: block;
+  width: 90px;
+  overflow: hidden;
+  font-size: 13px;
+  color: #666;
+  padding-top: 10px;
+  white-space: nowrap;
+}
+
+.searchbar-form .search-button {
+  padding: 0;
+  border: 0 none;
+}
+
+.header .searchbar-form .search-button {
+  position: absolute;
+  z-index: 5;
+  right: 0;
+  top: 0;
+  width: 50px;
+  height: 40px;
+  background: #e62e04 url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/header-sprite.png) no-repeat -587px 8px;
+  border-radius: 0 3px 3px 0;
+}
+
+@media (min-width:761px) and (max-width:920px) {
+  .searchbar-form .search-key-box input {
+    padding-right: 70px;
+  }
+}
+
+.nav-cart {
+  position: relative;
+  float: left;
+}
+
+.nav-cart .text {
+  max-width: 30px;
+  display: block;
+  overflow: hidden;
+}
+
+.nav-cart a {
+  position: relative;
+  display: block;
+  padding: 18px 0 0 38px;
+  z-index: 3;
+}
+
+.nav-cart a:before {
+  content: '';
+  position: absolute;
+  top: 3px;
+  left: 0;
+  width: 30px;
+  height: 30px;
+  overflow: hidden;
+}
+
+.nav-cart .cart-number {
+  min-width: 25px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  border-radius: 8px;
+  background-color: #e62e04;
+  color: #fff;
+  font-size: 12px;
+}
+
+.header .nav-cart {
+  margin-top: 25px;
+}
+
+.header .nav-cart .cart-number {
+  position: absolute;
+  top: 2px;
+  left: 38px;
+  padding: 0 2px;
+}
+
+@media (max-width:1019px) {
+  .nav-cart-box a {
+    min-width: 60px;
+  }
+
+  .header .nav-cart-box .cart-number {
+    top: 10px;
+  }
+}
+
+.nav-wishlist {
+  position: relative;
+  float: left;
+}
+
+.nav-wishlist .text {
+  max-width: 35px;
+  display: block;
+  overflow: hidden;
+}
+
+.nav-wishlist>a {
+  position: relative;
+  display: block;
+  padding: 27px 10px 0 0;
+  line-height: 16px;
+  border: 1px solid transparent;
+  border-bottom: none;
+}
+
+.nav-wishlist>a:before {
+  content: '';
+  position: absolute;
+  overflow: hidden;
+  left: 10px;
+  top: 31px;
+}
+
+.nav-wishlist>a:after {
+  display: none;
+  content: '';
+  position: absolute;
+  right: 3px;
+  z-index: 14;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+}
+
+.nav-wishlist-ctn {
+  display: none;
+  padding: 5px 0 0;
+}
+
+.nav-wishlist-ctn ul {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+}
+
+.nav-wishlist-ctn .nav-wishlist-msg {
+  padding: 0 10px;
+  display: none;
+}
+
+.nav-wishlist-ctn .nav-wishlist-msg ul {
+  border-top: 1px solid #ddd;
+}
+
+.header .nav-wishlist {
+  height: 70px;
+  margin-left: 10px;
+}
+
+.header .nav-wishlist>a {
+  padding-left: 45px;
+  padding-right: 5px;
+}
+
+.header .nav-wishlist>a:before {
+  width: 30px;
+  height: 30px;
+}
+
+.header .nav-wishlist-ctn,
+.header .nav-wishlist>a:after {
+  top: 70px;
+}
+
+@media (max-width:1019px) {
+  .header .nav-wishlist>a {
+    padding-right: 0;
+  }
+
+  .nav-wishlist>a:before {
+    left: 8px;
+  }
+}
+
+.nav-user-account {
+  position: relative;
+  float: left;
+  height: 70px;
+}
+
+.user-account-info {
+  position: relative;
+  border: 1px solid transparent;
+  border-bottom: 0 none;
+}
+
+.user-account-info:before {
+  content: '';
+  position: absolute;
+  overflow: hidden;
+}
+
+.user-account-info .account-name {
+  display: none;
+  width: 80px;
+  height: 18px;
+  line-height: 18px;
+}
+
+.user-account-info .account-unsigned {
+  display: block;
+  color: #f60;
+  height: 18px;
+  line-height: 18px;
+}
+
+.user-account-info .account-unsigned a:first-child {
+  font-weight: 700;
+}
+
+.user-account-info .account-unsigned .ua-line {
+  margin: 0 5px;
+  color: #e9e9e9;
+}
+
+.user-account-info .myaliexpress {
+  display: block;
+}
+
+.user-account-info .myaliexpress b {
+  display: none;
+  margin-left: 5px;
+  font-weight: 200;
+  color: #999;
+}
+
+.user-account-info:after {
+  display: none;
+  content: '';
+  position: absolute;
+  right: 3px;
+  z-index: 14;
+  width: 100%;
+  height: 5px;
+  background-color: #fff;
+}
+
+.user-account-main {
+  display: none;
+  position: absolute;
+  right: 0;
+  padding-top: 15px;
+  width: 260px;
+  border: 1px solid #ccc;
+  background-color: #fff;
+  color: #656565;
+  z-index: 12;
+  box-shadow: 2px 2px 2px #ccc;
+}
+
+.user-account-main li {
+  list-style: none;
+  margin-left: 0;
+}
+
+.user-account-main dl dd {
+  margin-left: 0;
+}
+
+.header .nav-user-account {
+  height: 70px;
+}
+
+.header .user-account-info {
+  padding: 25px 10px 6px 45px;
+}
+
+.header .user-account-info:before {
+  width: 30px;
+  height: 30px;
+  top: 29px;
+  left: 7px;
+}
+
+.header .user-account-info:after,
+.header .user-account-main {
+  top: 70px;
+}
+
+.header .user-account-info {
+  height: 75px;
+}
+
+.flyout-user-signout {
+  display: none;
+  margin: 0 20px 15px;
+  line-height: 24px;
+  font-size: 14px;
+  font-weight: 700;
+}
+
+.flyout-user-signIn {
+  display: none;
+  padding: 10px 0;
+  margin: 0 20px;
+  border-bottom: 1px solid #e8e8e8;
+}
+
+.flyout-user-signIn p {
+  margin-bottom: 0;
+}
+
+.flyout-user-signIn .flyout-welcome-text {
+  margin: 0 0 5px;
+}
+
+.flyout-user-signIn .sign-btn,
+.flyout-visitors-login .join-btn {
+  display: block;
+  height: 30px;
+  line-height: 30px;
+  border-radius: 3px;
+  font-weight: 700;
+  font-size: 14px;
+  text-align: center;
+  color: #fff;
+  background-color: #e62e04;
+}
+
+.flyout-user-signIn .flyout-signIn-type {
+  padding-top: 12px;
+}
+
+.flyout-user-signIn .flyout-signIn-type .nus-icon {
+  display: inline-block;
+  width: 26px;
+  height: 26px;
+  vertical-align: middle;
+  background: url(https://i.alicdn.com/ae-header/20180102150215/buyer/common/img/header-sprite.png) no-repeat -400px 0;
+}
+
+.flyout-user-signIn .flyout-signIn-type .nus-vk {
+  background-position: -450px 0;
+}
+
+.flyout-user-signIn .flyout-signIn-type .nus-google {
+  background-position: -500px -200px;
+}
+
+.flyout-visitors-login {
+  display: none;
+  margin: 15px 20px 30px;
+}
+
+.flyout-visitors-login dt {
+  display: block;
+  margin-bottom: 5px;
+}
+
+.flyout-visitors-login .join-btn {
+  background-color: #f60;
+}
+
+.flyout-remind-list {
+  margin: 0 20px 10px;
+  font-size: 14px;
+}
+
+.flyout-quick-entry {
+  background-color: #f4f4f4;
+}
+
+.flyout-quick-entry li a {
+  display: block;
+  padding: 6px 0 6px 20px;
+  line-height: 22px;
+  color: #333;
+}
+
+.flyout-quick-entry li:first-child a {
+  background-color: #e8e8e8;
+}
+
+@media (max-width:1019px) {
+
+
+  .header .user-account-info {
+    padding: 25px 10px 6px 40px;
+  }
+
+  .header .user-account-info:before {
+    left: 11px;
+  }
+}
+
+.hm-left {
+  position: relative;
+  width: 240px;
+  float: left;
+  z-index: 11;
+}
+
+.hm-middle {
+  position: relative;
+  width: auto;
+  padding-top: 23px;
+  z-index: 10;
+}
+
+.hm-right {
+  position: relative;
+  float: right;
+  font-size: 13px;
+  padding-left: 20px;
+  z-index: 11;
+}
+
+.hm-right a {
+  color: #333;
+}
+
+.header {
+  position: relative;
+  height: 85px;
+  width: 100%;
+  background-color: #fff;
+  z-index: 20;
+  border-bottom: 1px solid #e9e9e9;
+}
+
+.site-logo {
+  float: left;
+  padding: 14px 0 0 0;
+  max-width: 182px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.site-logo a {
+  display: block;
+}
+
+.site-logo .logo-base {
+  display: block;
+  width: 166px;
+  height: 40px;
+  text-indent: -999em;
+  margin: 0 auto;
+  overflow: hidden;
+}
+
+.site-logo .logo-slogan {
+  margin-top: 3px;
+  display: block;
+  height: 15px;
+  line-height: 12px;
+  overflow: hidden;
+  font-size: 11px;
+  color: #999;
+}
+
+.header-special-container {
+  height: 105px;
+}
+
+.header-special-container .hm-left {
+  height: 105px;
+}
+
+.header-special-container .hm-right {
+  height: 105px;
+}
+
+.header-special-container .hot-words {
+  height: 16px;
+  overflow: hidden;
+  margin-top: 7px;
+}
+
+.header-special-container .hot-words a {
+  position: relative;
+  float: left;
+  padding: 0 10px;
+  line-height: 16px;
+  font-size: 12px;
+  color: #666;
+}
+
+.header-special-container .hot-words a:before {
+  position: absolute;
+  left: 0;
+  top: 2px;
+  content: '';
+  display: inline-block;
+  width: 1px;
+  height: 14px;
+  font-size: 0;
+  overflow: hidden;
+  background-color: #E9E9E9;
+}
+
+.header-special-container .hot-words a:first-child {
+  padding-left: 0;
+}
+
+.header-special-container .hot-words a:first-child:before {
+  display: none;
+}

@@ -1,0 +1,27 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname": "www.aliexpress.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/aliexpress/modified.html",
+            "critical_css_file": "../../../css/aliexpress/critical.css",
+            "offset_index": 10760,
+            "offset_compressed": 3436,
+            "critical_push_streams": 2
+        }
+    ],
+    "push_configs":
+    [
+        {
+        "push_host": "www.aliexpress.com",
+        "push_trigger": "/",
+        "push_resources": [
+            "https://www.aliexpress.com/push__critical.css",
+            "https://i.alicdn.com/ae-wholesale-ui/??loader.927a220f.js",
+            "https://ae01.alicdn.com/kf/HTB1tEHzb.gQMeJjy0Ff762ddXXaF.png",
+            "https://i.alicdn.com/ae-header/20180102150215/buyer/front/ae-header.js"
+            ]
+        }
+    ]
+}

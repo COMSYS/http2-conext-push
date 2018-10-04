@@ -1,0 +1,27 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"en.wikipedia.org",
+            "index_trigger_path": "/wiki/Barack_Obama",
+            "content_file": "../../../html/wikipedia/modified.html",
+            "critical_css_file": "../../../css/wikipedia/critical.css",
+            "offset_index": 12000,
+            "offset_compressed": 4400,
+            "critical_push_streams": 4
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "en.wikipedia.org",
+            "push_trigger": "/wiki/Barack_Obama",
+            "push_resources": [
+                "https://en.wikipedia.org/push__critical.css",
+                "https://en.wikipedia.org/w/load.php?debug=false&lang=en&modules=startup&only=scripts&skin=vector",
+                "https://en.wikipedia.org/static/images/project-logos/enwiki.png",
+                "https://upload.wikimedia.org/wikipedia/commons/thumb/8/8d/President_Barack_Obama.jpg/220px-President_Barack_Obama.jpg"
+            ]
+        }
+    ]
+}

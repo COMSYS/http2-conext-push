@@ -1,0 +1,29 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.yelp.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/yelp/captured.html",
+            "critical_css_file": "../../../css/yelp/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.yelp.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://s3-media4.fl.yelpcdn.com/assets/srv0/homepage/7620b0b5719e/assets/css/homepage-pkg.css",
+                "https://www.yelp.com/yly-vuxzzqbbzaxswsazcfc.js",
+
+                "https://s3-media4.fl.yelpcdn.com/assets/srv0/yelp_design_web/cc559bfa0aa1/assets/img/holidays/valentines.png",
+                "https://s3-media3.fl.yelpcdn.com/bphoto/ALo3GaBwrBaAFzSHkRhRaQ/90s.jpg",
+                "https://s3-media2.fl.yelpcdn.com/assets/srv0/yelp_design_web/9b34e39ccbeb/assets/img/stars/stars.png"
+            ]
+        }
+    ]
+}

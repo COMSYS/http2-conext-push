@@ -1,0 +1,59 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.ebay.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/ebay/modified.html",
+            "critical_css_file": "../../../css/ebay/critical.css",
+            "offset_index": 25000,
+            "offset_compressed": 8390,
+            "critical_push_streams": 2
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.ebay.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.ebay.com/push__critical.css",
+                "https://www.ebay.com/scl/js/ScandalLoader.js",
+                "https://ir.ebaystatic.com/rs/v/fxxj3ttftm5ltcqnto1o4baovyl.png",
+                "https://secureir.ebaystatic.com/cr/v/c1/5887_010818_NYNY-RM-Hub-Small-Doodle_Doodle_150x30.png",
+                "https://ir.ebaystatic.com/pictures/aw/pics/s_1x2.gif",
+                "https://ir.ebaystatic.com/rs/c/index-0e9a7d.js",
+                "https://rover.ebay.com/roversync/?site=0&stg=1&mpt=1515517489118",
+                "https://ir.ebaystatic.com/include/js/v/us/tracking_NodeheaderJS.js",
+                "https://secureinclude.ebaystatic.com/js/v/us/pulsar.js?1",
+                
+                "https://ir.ebaystatic.com/rs/v/q1f4wck3gq2odknoei540un5g2l.js",
+                "https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-Regular-WebS.woff2",
+                "https://ir.ebaystatic.com/cr/v/c1/market-sans/v1.0/MarketSans-SemiBold-WebS.woff2",
+                "https://ir.ebaystatic.com/pictures/aw/pics/cmp/ds3/sprds3_18.png",
+                "https://ir.ebaystatic.com/rs/v/f5uxsy10bmz05dtrtrqybl5qquv.png",
+                "https://ir.ebaystatic.com/cr/v/c1/skin/v2.5.5/fonts/vq-icon-font.woff",
+                "https://secureir.ebaystatic.com/cr/v/c1/sc/ScandalJS-2.0.9_4-SNAPSHOT.min.js",
+                "https://secureinclude.ebaystatic.com/js/v/us/pulsar.js",
+                "https://secureir.ebaystatic.com/pictures/aw/OCS_SelfService/IconSprite_InflowHelp.png",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Motors.jpg",
+                "https://ir.ebaystatic.com/cr/v/c1/1x1.gif",
+                "https://ir.ebaystatic.com/cr/v/c1/adobe_short2.js",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Fashion.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Tech.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Collectibles.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_HG.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Toys.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_BI.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_SportingGoods.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Music.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/04332BrndFly_Flyout_770x270_Deals.jpg",
+                "https://ir.ebaystatic.com/rtm/0/RTMS/Image/3620_022417_CL_Flyout_770x270-v2.jpg",
+                
+                "https://ir.ebaystatic.com/rs/c/index-d08f72.css",
+                "https://ir.ebaystatic.com/rs/v/h0uj1osj1y1nlldfgf21ohvmvug.css?proc=DU:N",
+                "https://ir.ebaystatic.com/rs/v/jmm4u3kjdq2pxhoycx0a3ybkje2.css?proc=DU:N"
+            ]
+        }
+    ]
+}

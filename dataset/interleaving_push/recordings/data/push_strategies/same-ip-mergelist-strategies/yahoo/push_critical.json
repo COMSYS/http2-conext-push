@@ -1,0 +1,38 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"de.yahoo.com",
+            "index_trigger_path": "/?p=us",
+            "content_file": "../../../html/yahoo/captured.html",
+            "critical_css_file": "../../../css/yahoo/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0 
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "de.yahoo.com",
+            "push_trigger": "/?p=us",
+            "push_resources": [
+                "https://mbp.yimg.com/sy/os/fp/atomic-css.13a2f165.css",
+                "https://mbp.yimg.com/sy/os/stencil/3.2.1/styles-ltr.css",
+                "https://mbp.yimg.com/sy/os/yc/css/bundle.c60a6d54.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/polyvore_0.0.3.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/advance_base_rc4_0.0.65.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/font_rc4_0.0.67.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/yahoo20_grid_0.0.146.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/video_styles_0.0.25.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/advance_color_0.0.9.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/theme/viewer_modal_center_0.0.31.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/theme/yglyphs-legacy_0.0.7.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/sda/fp_sda_0.0.8.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/sda/sda_advance_0.0.10.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/fpfooter/advance_0.0.6.css",
+                "https://mbp.yimg.com/sy/rq/darla/3-1-1/js/g-r-min.js"
+            ]
+        }
+    ]
+}

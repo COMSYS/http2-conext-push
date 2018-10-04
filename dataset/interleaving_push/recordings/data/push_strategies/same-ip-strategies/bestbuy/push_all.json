@@ -1,0 +1,42 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.bestbuy.com",
+            "index_trigger_path": "/?intl=nosplash%",
+            "content_file": "../../html/bestbuy/captured.html",
+            "critical_css_file": "../../css/bestbuy/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.bestbuy.com",
+            "push_trigger": "/?intl=nosplash%",
+            "push_resources": [
+                "https://www.bestbuy.com/akam/10/1731aa7c",
+                "https://www.bestbuy.com/streams/v1/topics?topics=ORDER_NOTIFICATION&limit=20",
+                "https://www.bestbuy.com/streams/v1/consume",
+                "https://www.bestbuy.com/akam/10/pixel_1731aa7c",
+                "https://www.bestbuy.com/location/v1/US/approximate",
+                "https://www.bestbuy.com/site/modals/render/email_submission_modal.c?id=email_submission_modal",
+                "https://www.bestbuy.com/location/v1/US/store/zipcode/04785?types=Store&storeTypes=BigBox&status=Open&pancodes=",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/2b0b58a3-a579-41f5-a8d9-82152a13d43f",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/0a715407-108a-4c16-99f0-c65d87fb7bb8",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/f0e6e794-035f-436b-872c-9f50b0584320",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/bfd20ce5-2c40-4faf-be20-def28dd59c0f",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/b8ed7443-9c61-4481-b5df-fd6870772021",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/438beb36-8287-4fd1-b0f2-5a71c312948b",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/783786bc-384a-4e34-85a2-0355d2ffe77c",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/3f4d12bb-7c01-4545-906b-2bfb6571ed24",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/4b0280fb-e9d8-4555-bd80-fb0d9f3c1cc7",
+                "https://www.bestbuy.com/browse-api/1.0/pageConfiguration/bbypres/cat00000/de6803bb-8eea-4be0-af7e-5f9c3d95db09",
+                "https://www.bestbuy.com/location/v1/US/zipcode/04785?pancodes=P",
+                "https://www.bestbuy.com/api/v1/storeDetails/463"
+                ]
+        }
+    ]
+}

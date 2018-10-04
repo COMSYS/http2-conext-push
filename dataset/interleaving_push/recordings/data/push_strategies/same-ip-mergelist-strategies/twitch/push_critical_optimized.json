@@ -1,0 +1,28 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.twitch.tv",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/twitch/modified.html",
+            "critical_css_file": "../../../css/twitch/critical.css",
+            "offset_index": 9300,
+            "offset_compressed": 2400,
+            "critical_push_streams": 4
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.twitch.tv",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.twitch.tv/push__critical.css",
+
+                "https://polyfill.twitchsvc.net/v2/polyfill.min.js?unknown=polyfill&flags=gated&features=default,URL,fetch,Array.prototype.find,Array.prototype.findIndex,Array.prototype.includes,Intl.~locale.en",
+                "https://static.twitchcdn.net/config/settings.96871720c31c0505fac342bb52a0bc42.js",
+                "https://custos.twitchcdn.net/v1.js"
+            ]
+        }
+    ]
+}

@@ -1,0 +1,62 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.bankofamerica.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/bankofamerica/modified.html",
+            "critical_css_file": "../../../css/bankofamerica/critical.css",
+            "offset_index": 10700,
+            "offset_compressed": 2600,
+            "critical_push_streams": 5
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.bankofamerica.com",
+            "push_trigger": "/",
+            "push_resources": [
+                    "https://www.apple.com/push__critical.css",
+                    "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/platform/babel-polyfill.js",
+                    "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/vendor/require/2.2.0/js/require.js",
+                    "https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/bac-logo.png",
+                    "https://www.bankofamerica.com/content/images/ContextualSiteGraphics/Logos/en_US/logos/colored_flagscape.png",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-logos-boa-logo-CSXe4b047c0.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-sign-in-module-hp-url-example-CSX3e076ebf.png",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-news-intro-phone-large-CSXf27c8a50.webp",
+                    "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/global/sparta-style-utility/2.7.0/font/cnx-regular/cnx-regular.woff2",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-icons-colored_flagscape-CSX9315e3e5.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/global/sparta-style-utility/2.7.0/font/cnx-medium/cnx-medium.woff2",
+                    "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/global/sparta-style-utility/2.7.0/font/cnx-light/cnx-light.woff2",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-icon-nav-home-loans-CSX95886066.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-icons-arrow_right_blue-CSXbd9e506c.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-logos-icon-ehl-CSXed1790a2.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-news-1px_YNI__ARKRP9LJ-CSX1cd89d7.jpg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-news-PaperlessIcon-CSXd1d732dc.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-news-BofA_tagline-CSXeda08bbb.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/bundles/a5283069.js",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-favicon-favicon-32x32-CSXdfdeaba2.png",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-favicon-favicon-16x16-CSX5132b82b.png",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-favicon-android-chrome-192x192-CSXf4a81122.png",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-global-favicon-favicon-CSX386b332d.ico",
+                    "https://www1.bac-assets.com/homepage/spa-assets/components/utilities/vendor/glassbox-ui-capture/1.1.0/js/glassbox-ui-capture.js",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-bmh-module-default-0_Default_4_319x363-CSX14fbe759.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-bmh-module-default-0_Default_3_319x363-CSX8c554a27.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-bmh-module-default-0_Default_2_319x363-CSX4141ca60.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-bmh-module-default-0_Default_1_319x363-CSX757932f5.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-icons-Article-Simple-CSX5a43ccb8.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-icons-Calculator-Simple-CSX9bb359bc.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-homepage-icons-Infographic-Simple-CSX6b4e2aae.svg",
+                    "https://www1.bac-assets.com/homepage/spa-assets/images/assets-images-site-hp-assets-super-highlights-enterprize-military-ENT_Mil_Lifestyle_HiLi_ARLR9FQ9_608-CSX15af06ba.webp",
+                    "https://www2.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-highlights-Checking.svg",
+                    "https://www1.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-highlights-PR_Standard_HiLi_ARPJQKRC.svg",
+                    "https://www2.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-highlights-XLOB_HL_ARJRV3V5_New.svg",
+                    "https://www2.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-super-highlights-card-en-Card_SHL1_ARNRM653_722_test.webp",
+                    "https://www2.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-highlights-card-Card_HL2_ARNRM653_Icon.svg",
+                    "https://www1.bac-assets.com/hp-assets/spa-assets/images/assets-images-site-hp-assets-mastheads-consumer-enterprise-en-2018-01-05-AR4N3KJJ-mobile_jd_powers-mobile_mh_ar4n3kjj_1440.webp",
+                    "https://www1.bac-assets.com/homepage/spa-assets/bundles/eff1f815.css"
+                ]
+        }
+    ]
+}

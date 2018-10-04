@@ -1,0 +1,31 @@
+# install mitmproxy 2 and browsertime
+# make sure browsertime can record videos and stuff
+# set env CHROMEDRIVER_BINARY to absolute chromedriver binary path
+# set env CHROME_BINARY_PUSH to absolute chrome binary path
+# run mitmproxy recording script 
+
+$ python create-mitmproxy-capture.py  --browsertime-dir ~/Projects/browsertime/ domain_urls.csv ../data/
+
+# this will create mitmproxy captures.
+# convert mitmproxy captures to mahimahi captures using https://github.com/worenga/mitmproxy2mahimahi
+$ ./transform.sh 
+
+# extract html documents from traces
+
+$ python extract-html-from-capture.py ../data/logs/redirect_targets.csv.gz ../data/mitmproxy ../data/
+
+# extract all css
+
+$ python extract-all-css-from-capture.py ../data/logs/redirect_targets.csv.gz ../data/mitmproxy ../data/
+
+# calculate critical css
+# install penthouse with npm i
+# note that twitch and youtube require the new version of penthouse > 1.0 while the others work with 0.13+
+# having penthouse 0.13 installed do 
+
+$ python create-critical-css.py ../data/logs/redirect_targets.csv.gz ../data/mm-capture ../data/
+with penthouse 1.+ do
+$ python create-critical-css.py ../data/logs/youtube_only.csv.gz ../data/mm-capture ../data/
+
+# TODO: examine sites specify critical assets to push
+# TODO: rewrite index using critical css

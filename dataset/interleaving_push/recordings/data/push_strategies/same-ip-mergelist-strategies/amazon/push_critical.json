@@ -1,0 +1,26 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.amazon.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/amazon/captured.html",
+            "critical_css_file": "../../../css/amazon/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+        {
+        "push_host": "www.amazon.com",
+        "push_trigger": "/",
+        "push_resources": [
+            "https://images-na.ssl-images-amazon.com/images/I/61TFomFpy4L._RC%7C11qlbytjBCL.css,31uhlNwRi9L.css,218SPNsG8BL.css,31qZr4W+nuL.css,11h94qpcz8L.css,31UlxNhlUML.css,01XHMOHpK1L.css_.css?AUIClients/NavDesktopMetaAsset",
+            "https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonGatewayAuiAssets-588a494255c187302ab330fd04d2db36dacd618b._V2_.css",
+            "https://images-na.ssl-images-amazon.com/images/G/01/AUIClients/AmazonGatewayHerotatorJS-ed6ce4798415244198b464cf366c538b1f2f2537._V2_.css"
+            ]
+        }
+    ]
+}

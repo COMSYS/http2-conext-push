@@ -1,0 +1,26 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"twitter.com",
+            "index_trigger_path": "/ohohlfeld",
+            "content_file": "../../../html/twitter/captured.html",
+            "critical_css_file": "../../../css/twitter/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "twitter.com",
+            "push_trigger": "/ohohlfeld",
+            "push_resources": [
+                "https://abs.twimg.com/a/1515228863/css/t1/twitter_core.bundle.css",
+                "https://abs.twimg.com/a/1515228863/css/t1/twitter_more_1.bundle.css",
+                "https://abs.twimg.com/a/1515228863/css/t1/twitter_more_2.bundle.css"
+            ]
+        }
+    ]
+}

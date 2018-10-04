@@ -1,0 +1,26 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"de.yahoo.com",
+            "index_trigger_path": "/?p=us",
+            "content_file": "../../../html/yahoo/modified.html",
+            "critical_css_file": "../../../css/yahoo/critical.css",
+            "offset_index": 70000,
+            "offset_compressed": 17000,
+            "critical_push_streams": 1
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "de.yahoo.com",
+            "push_trigger": "/?p=us",
+            "push_resources": [
+                "https://de.yahoo.com/push__critical.css",
+                "https://mbp.yimg.com/sy/rq/darla/3-1-1/js/g-r-min.js"
+
+            ]
+        }
+    ]
+}

@@ -1,0 +1,79 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"twitter.com",
+            "index_trigger_path": "/ohohlfeld",
+            "content_file": "../../../html/twitter/modified.html",
+            "critical_css_file": "../../../css/twitter/critical.css",
+            "offset_index": 51000,
+            "offset_compressed": 12000,
+            "critical_push_streams": 1
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "twitter.com",
+            "push_trigger": "/ohohlfeld",
+            "push_resources": [
+                "https://twitter.com/push__critical.css",
+
+                "https://abs.twimg.com/k/en/init.en.caa653749241467e7dbb.js",
+                "https://abs.twimg.com/k/en/0.commons.en.0a4730e8ed15dac5a35d.js",
+                "https://abs.twimg.com/k/en/2.pages_profile.en.4c728824c8b7cc4c044c.js",
+                "https://twitter.com/i/js_inst?c_name=ui_metrics",
+                "https://pbs.twimg.com/profile_images/869877180750340097/nDc5M2Yj_400x400.jpg",
+                "https://pbs.twimg.com/profile_images/869877180750340097/nDc5M2Yj_normal.jpg",
+                "https://pbs.twimg.com/profile_images/869877180750340097/nDc5M2Yj_bigger.jpg",
+                "https://pbs.twimg.com/media/DRBSh6SX0AAFIqv.jpg",
+                "https://pbs.twimg.com/media/DRBSjlaX0AAGDoQ.jpg",
+                "https://pbs.twimg.com/profile_images/803533893416714240/tT3n-rJi_bigger.jpg",
+                "https://pbs.twimg.com/profile_images/936192074654904320/vjMeObTK_bigger.jpg",
+                "https://pbs.twimg.com/media/DP4F7oKX4AAP6z_.jpg",
+                "https://pbs.twimg.com/media/DP4A6H8W0AAiLjv.jpg",
+                "https://pbs.twimg.com/profile_images/919306169587552257/3ZeMshjj_bigger.jpg",
+                "https://pbs.twimg.com/profile_images/537903704397983744/8ZwUhscc_bigger.jpeg",
+                "https://pbs.twimg.com/profile_images/2297249378/p74kby6sleew64kennbw_bigger.jpeg",
+                "https://pbs.twimg.com/media/DOIWAldVoAAfgTg.jpg",
+                "https://pbs.twimg.com/profile_images/666710510746890240/qEB9DMqZ_bigger.jpg",
+                "https://pbs.twimg.com/media/DN8aJL6WsAAAdZR.jpg",
+                "https://pbs.twimg.com/media/DNx8ZK8VAAYTyKO.jpg",
+                "https://pbs.twimg.com/media/DNx8h15UMAAjOnk.jpg",
+                "https://pbs.twimg.com/profile_images/748762541363388416/XbHVcILx_bigger.jpg",
+                "https://pbs.twimg.com/media/DNsnuu3WsAA1jlb.jpg",
+                "https://pbs.twimg.com/media/DNpI7qTXkAEFbLc.jpg",
+                "https://pbs.twimg.com/profile_images/930937715847081985/Nmt3_G0E_bigger.jpg",
+                "https://pbs.twimg.com/media/DNpCKcyWAAAaFUd.jpg",
+                "https://pbs.twimg.com/media/DNpB0_SW4AAIx74.jpg",
+                "https://pbs.twimg.com/media/DNopcITW0AAOTQU.jpg",
+                "https://abs.twimg.com/a/1515228863/img/search/ic_places_foursquare_logo.png",
+                "https://abs.twimg.com/a/1515228863/img/search/ic_places_yelp_logo.png",
+                "https://abs.twimg.com/a/1515228863/font/edge-icons-Regular.woff",
+                "https://twitter.com/i/js_inst?c_name=ui_metrics",
+                "https://abs.twimg.com/a/1515228863/img/animations/web_heart_animation_edge.png",
+                "https://abs.twimg.com/a/1515228863/img/t1/spinners/spinner-rosetta-gray-32x32.gif",
+                "https://twitter.com/i/related_users/56959912",
+                "https://twitter.com/i/trends?k=&pc=true&profileUserId=56959912&show_context=true&src=module",
+                "https://twitter.com/i/profiles/show/ohohlfeld/media_timeline?for_photo_rail=true",
+                "https://pbs.twimg.com/profile_images/738445829191634945/UrGHSvXy_bigger.jpg",
+                "https://pbs.twimg.com/profile_images/487072934867902467/2C2WZDLu_bigger.jpeg",
+                "https://pbs.twimg.com/profile_images/754786491298156549/0aGCYv71_bigger.jpg",
+                "https://twitter.com/i/jot",
+                "https://pbs.twimg.com/media/DRBSh6SX0AAFIqv.jpg:thumb",
+                "https://pbs.twimg.com/media/DRBSjlaX0AAGDoQ.jpg:thumb",
+                "https://pbs.twimg.com/media/DP4A6H8W0AAiLjv.jpg:thumb",
+                "https://pbs.twimg.com/media/DN8aJL6WsAAAdZR.jpg:thumb",
+                "https://pbs.twimg.com/media/DNx8ZK8VAAYTyKO.jpg:thumb",
+                "https://pbs.twimg.com/media/DNx8h15UMAAjOnk.jpg:thumb",
+                "https://abs.twimg.com/favicons/favicon.ico",
+                "https://abs.twimg.com/a/1515228863/img/t1/spinners/spinner-rosetta-blue-26x26.gif",
+
+                "https://abs.twimg.com/a/1515228863/css/t1/twitter_core.bundle.css",
+                "https://abs.twimg.com/a/1515228863/css/t1/twitter_more_1.bundle.css",
+                "https://abs.twimg.com/a/1515228863/css/t1/twitter_more_2.bundle.css"
+
+            ]
+        }
+    ]
+}

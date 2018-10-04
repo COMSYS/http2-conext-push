@@ -1,0 +1,31 @@
+
+40.77.226.250»"Ñ
+POST /collect/v1 HTTP/1.1%
+Hostweb.vortex.data.microsoft.com
+
+Connection
+keep-alive
+Content-Length1134
+Cache-Control	max-age=0#
+Originhttps://www.microsoft.comu
+
+User-AgentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36(
+Content-Typetext/plain;charset=UTF-8
+Accept*/*+
+Referer https://www.microsoft.com/de-de/$
+Accept-Encodinggzip, deflate, br!
+Accept-Languageen-US,en;q=0.9‚
+CookiexMC1=GUID=988320295d564f1982812ff53d12aeea&HASH=9883&LV=201801&V=4&LU=1515517559782; MS0=50923ba3000a4494a1b79c1a45882dceî{"ver":"2.1","name":"Ms.Webi.OutgoingRequest","time":"2018-01-09T17:06:00.469Z","appId":"JS:MeControl","appVer":"Web:9.1.17346.1","cV":"2xhI4UKpkRZ7s55d.2.1","os":"Linux","data":{"baseType":"Ms.Qos.OutgoingServiceRequest","pageName":"Initial Collapsed","impressionGuid":"e31c9bd6-2666-460d-90fb-533117537c40","market":"de-DE","customData":"{\"metaTags\":{\"authtype\":\"msa\",\"pgpart\":\"mshomepage\"},\"config\":{\"ver\":\"9.1.17346.1\",\"mkt\":\"de-DE\",\"ptn\":\"mshomepage\",\"gfx\":\"https://mem.gfx.ms/me\",\"dbg\":false,\"aad\":false,\"int\":false,\"pxy\":false,\"msTxt\":false,\"rwd\":true,\"telEvs\":\"PageAction,PageView,OutgoingRequest,ClientError,PartnerApiCall\"},\"url\":\"https://www.microsoft.com/de-de/\"}","baseData":{"operationName":"GetRememberedAccounts","dependencyOperationName":"GetState","dependencyName":"MSA","latencyMs":628,"succeeded":true,"targetUri":"https://login.live.com/me.srf?wa=wsignin1.0&wreply=https%3A%2F%2Fwww.microsoft.com&uaid=93e8f733-fb3f-4c23-09f8-fe40e748a7e0&partnerId=mshomepage"}},"ext":{"javascript":{"ver":"1.1","libVer":"4.2.3","domain":"www.microsoft.com"},"app":{"env":"Prod"}}}*±
+HTTP/1.1 200 OK#
+Cache-Controlno-cache, no-store
+Pragmano-cache
+Content-Length57 
+Content-Typeapplication/json
+Expires0!
+X-Content-Type-Optionsnosniff!
+MS-CVzOjUcSGgukWh99N0PEmLtg.0u
+P3PnCP="ALL IND DSP COR ADM CONo CUR CUSo IVAo IVDo PSA PSD TAI TELo OUR SAMo CNT COM INT NAV ONL PHY PRE PUR UNI"›
+Access-Control-Allow-Headers{Accept, Authorization, Content-Type, Origin, X-Xbl-Contract-Version, X-Xbl-Device-Type, Xbl-Authz-Actor-10, WithCredentials8
+Access-Control-Allow-Originhttps://www.microsoft.com(
+ Access-Control-Allow-Credentialstrue%
+DateTue, 09 Jan 2018 17:06:06 GMT9{"ipv":false,"pvm":null,"rej":0,"bln":0,"acc":1,"efi":[]}

@@ -1,0 +1,32 @@
+
+106.11.94.44»"Ð
+POST /service/um.json HTTP/1.1
+Hostynuf.alipay.com
+
+Connection
+keep-alive
+Content-Length1016
+Originhttps://g.alicdn.comu
+
+User-AgentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36@
+Content-Type0application/x-www-form-urlencoded; charset=UTF-8
+Accept*/*7
+Referer,https://g.alicdn.com/alilog/oneplus/blk.html$
+Accept-Encodinggzip, deflate, br!
+Accept-Languageen-US,en;q=0.9ødata=ENCODE~~V01~~eyJ4diI6IjMuMy43IiwieHQiOiJFVGJFbzNJTUVnQ0FZbmlPMldwSmFjOVRYdEpuZUFVbyIsImV0ZiI6ImIiLCJ4YSI6ImFsaXl1bl9haWQiLCJzaXRlSWQiOiIiLCJ1aWQiOiIiLCJlbWwiOiJBQSIsImV0aWQiOiIiLCJlc2lkIjoiIiwidHlwZSI6InBjIiwibmNlIjp0cnVlLCJwbGF0IjoiTGludXgiLCJuYWNuIjoiTW96aWxsYSIsIm5hbiI6Ik5ldHNjYXBlIiwibmxnIjoiZW4tVVMiLCJzdyI6MTIwMCwic2giOjk2MCwic2F3IjoxMjAwLCJzYWgiOjk2MCwiYnN3IjowLCJic2giOjEsImVsb2MiOiJodHRwcyUzQSUyRiUyRnd3dy5hbGlleHByZXNzLmNvbSUyRiIsImV0eiI6NjAsImV0dCI6MTUxNTUxNzQ1OTkzMiwiZWNuIjoiMWY4ZjA0NjA0NzU2Njk1YjYzMTZhMzFmMjI5YTk4ZjE5ZGJjNTlkMCIsImVyZCI6ImRlZmF1bHQsNzYxMGY3ZWRlZWFhMjI2YmFlZjY0ZTBiMTcwNTE4M2RlNWZhMWNkZjg2MjEzZDVkZGJhNGUzMWYzNjQxNjkwNywxMTllYzJjZjg0NTQwOGNhOWIwZmQ3MjY0NDk0YjAzYzQ4NmMwMjU2YzhlNjgzYjc2ZGViYjBhZjg4NTVkZmQ0LGRlZmF1bHQsOTRlMDg4ZjRjYjVmMTIyY2ExZjY1ZTNiNWU4NDRlOTRiM2QxOTNkZmZmZTQ1MDkyZjc1ZjkyOGM4ZjgwNzcwNSIsImlwcyI6IiIsImVwbCI6MiwiZXAiOiIzZDRkODRmMmM0NTI4MmIyYjk0MzA0NzczYzI0NzMwNjE0ZDQzZWI4IiwiZXBscyI6IkMzZDRkODRmMmM0NTI4MmIyYjk0MzA0NzczYzI0NzMwNjE0ZDQzZWI4IiwiZXNsIjpmYWxzZX0%3D*À
+HTTP/1.1 200 OK
+ServerTengine%
+DateTue, 09 Jan 2018 17:04:22 GMT.
+Content-Typeapplication/json;charset=utf-8
+Content-Length137
+
+Connection
+keep-alive3
+Access-Control-Allow-Originhttps://g.alicdn.com0
+Access-Control-Allow-MethodsGET,POST,OPTIONS(
+ Access-Control-Allow-CredentialstrueQ
+Access-Control-Allow-Headers1Accept,X-PINGARUNER,CONTENT-TYPE,X-Requested-Withñ
+
+Set-Cookieâumdata_=6AF5B463492A874D1A5741CB6093A0AED5B9D46A84977F43B21B50C9DDCED166DCC224DDE406FFEACD43AD3E795C914C6902BD60944FFE801911B65DC073EB5B; Domain=.ynuf.alipay.com; Expires=Wed, 09-Jan-2019 17:04:22 GMT; Path=/; Secure; HttpOnly
+P3PCP=IVAa PSAa
+Content-Languagezh-CN‰{"id":"6AF5B463492A874D1A5741CB6093A0AED5B9D46A84977F43B21B50C9DDCED166DCC224DDE406FFEACD43AD3E795C914C6902BD60944FFE801911B65DC073EB5B"}

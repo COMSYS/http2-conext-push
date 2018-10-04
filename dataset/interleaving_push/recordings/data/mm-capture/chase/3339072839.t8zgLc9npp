@@ -1,0 +1,44 @@
+
+159.53.232.11»"æ
+­POST /events/dynaTraceMonitor?type=js&session=8AD025346DF5C9DEDA4037FC96F7E92C%7CQzFQMV9fVFguQzJQNF9fVkF8MQ&flavor=post&referer=https%3A%2F%2Fsecure01a.chase.com%2Fweb%2Fauth%2Flogonbox%3FfromOrigin%3Dhttps%253A%252F%252Fwww.chase.com%23%2Flogonbox%2Findex%2Findex%2Findex&app=C1P1_TX.C2P4_VA HTTP/1.1
+Hostsecure01a.chase.com
+
+Connection
+keep-alive
+Content-Length666
+x-dtrefererphttps://secure01a.chase.com/web/auth/logonbox?fromOrigin=https%3A%2F%2Fwww.chase.com#/logonbox/index/index/index%
+Originhttps://secure01a.chase.comu
+
+User-AgentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36(
+Content-Typetext/plain;charset=UTF-8
+Accept*/*_
+RefererThttps://secure01a.chase.com/web/auth/logonbox?fromOrigin=https%3A%2F%2Fwww.chase.com$
+Accept-Encodinggzip, deflate, br!
+Accept-Languageen-US,en;q=0.9Æ
+Cookie»PC_1_0=locale%3Den_us%7Cpfid%3D%7Csegment%3D%7CAOC%3D%7Cpm%3D%7Capc%3D%7C; TS0148602f=01747839287775486522d060495dc56f0db1d05781ccc8a3473307f1385371ef0f3528ab02d47fcd6b5a8a7478eec5aa28b7770034; TS013a2c79=0174783928e5c2c32142df6354045ab147f9c61e9cccc8a3473307f1385371ef0f3528ab0210bc24c4386ccda6c1b3bb796f1ca565918207feeea355f4687d32fd9327fb2b8f436f8337c3bd7c0dcbe6ce701cb7526daec816b0a8585eac1247e3b1fc6a8430d03b9cbd7f2c39e7a7e0bdf053c13baef2f71f64ccf04d1dde4c309154764bd8dbb00a57cf4345fc1fa950d77ad63b; X1ID=HH-00000000086097020; TMP_X1ID=HH-00000000086097020; dtSa=-; dtLatC=300; v1st=ECDCF42D49F61DC0; _geoFreshness=0; dtPC=-; dtCookie=8AD025346DF5C9DEDA4037FC96F7E92C|QzFQMV9fVFguQzJQNF9fVkF8MQš$3p=static.chasecdn.com%7Cu%7C1%7C0%7C0%7C0%7C0%7C1%7C%7C0%7C0%7C0%7C1487_1833%7C346%7C346%7C346%7C20%7C0%7C0%7C0%7C0%7C20%7C%7C0%7C0%7C0%7C1488_2400_2416_2523_2536_2541_2609_2612_2671_2678_2757_2771_2912_3000_3004_3076_3786_4437%7C272%7C2%7C908%7C6%7C0%7C0%7C0%7C1487_2004_2007_2010_3449_3751%7C198%7C3%7C516%7C8%7C0%7C0%7C0%7C3091_3152_3350_3601_3789_4040%7C138%7C61%7C250$fId=517296443_25$v=10123170830093106$url=https%3A%2F%2Fsecure01a.chase.com%2Fweb%2Fauth%2Flogonbox%3FfromOrigin%3Dhttps%253A%252F%252Fwww.chase.com%23%2Flogonbox%2Findex%2Findex%2Findex$title=Chase%20Online$latC=300$app=C1P1_TX.C2P4_VA$fId=517296443_25$v=10123170830093106$time=1515517301479*¥
+
+HTTP/1.1 200 OK%
+DateTue, 09 Jan 2018 17:01:41 GMT&
+
+x-trace-idWlT1dalXVuEAAEmioXEAAAFg:
+Cache-Control)no-cache,no-store,must-revalidate,private
+Pragmano-cache!
+X-Content-Type-Optionsnosniff!
+X-XSS-Protection1; mode=block@
+Strict-Transport-Security#max-age=31536000; includeSubdomains0
+Access-Control-Allow-MethodsPOST,GET,OPTIONSW
+Access-Control-Allow-Origin8https://secure01a.chase.com, https://secure01a.chase.com(
+ Access-Control-Allow-CredentialstrueE
+Access-Control-Allow-Headers%x-jpmc-csrf-token,Content-Type,origin
+Content-Length3511
+Content-Security-Policyframe-ancestors 'none'3
+X-Content-Security-Policyframe-ancestors 'none'
+X-Frame-OptionsDENY"
+
+Keep-Alivetimeout=60, max=4367
+
+Connection
+Keep-Alive)
+Content-Typetext/plain; charset=utf-8‹
+
+Set-Cookie}TS0148602f=01747839287775486522d060495dc56f0db1d05781ccc8a3473307f1385371ef0f3528ab02d47fcd6b5a8a7478eec5aa28b7770034; Path=/ßOK(Webserver)|name=dtagent|config=agentUri%3D%2Fevents%2Fdtagent_ICA23STVpqr_7000000061013.js%7Cdomain%3Dchase.com%7ClastModification%3D1515185659355%7Clzwd%3D1%7Clab%3D1%7Ctp%3D500%2C50%2C0%2C1%7CreportUrl%3D%2Fevents%2FdynaTraceMonitor%7Capp%3DC1P1_TX.C2P4_VA|featureHash=ICA23STVpqr|version=|buildNumber=7000000061013|lastModification=1515517301785

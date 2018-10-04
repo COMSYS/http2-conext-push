@@ -1,0 +1,76 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.walmart.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/walmart/captured.html",
+            "critical_css_file": "../../../css/walmart/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+        {
+            "push_host": "www.walmart.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://i5.walmartimages.com/dfw/63fd9f59-a899/b086368d-3bcd-4bf8-9e51-e499ceed6859/v1/BogleWeb.css",
+                "https://i5.walmartimages.com/dfw/63fd9f59-cb99/f155dc33-c696-4567-9211-71ed67955d14/v1/homepage_styles.style.bad633d50258e65f169d.css",
+                "https://i5.walmartimages.com/dfw/63fd9f59-c534/7237d572-0c98-4eab-974b-3b694e72f5ba/v1/ft.js",
+                
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-5acb/k2-_1fe86f7d-2151-41ba-a668-4e90751147ba.v1.jpg",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-fc73/k2-_ea8f053c-f4d5-4302-a1c9-6581113f6e25.v1.jpg?odnWidth=1364&odnHeight=300&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-4960/k2-_3af04272-0fae-4e1d-8a15-6946048408c0.v1.jpg?odnWidth=1364&odnHeight=300&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-35a6/k2-_df89a401-452a-412e-b503-93f8079c8446.v1.png",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-fae1/k2-_68cdf1ce-2167-4ec8-a8b1-6fd455d6cc64.v1.png",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-519d/k2-_2683dbb8-cb1d-46b9-8e21-8b6a8e26b678.v1.png",
+                "https://i5.walmartimages.com/dfw/63fd9f59-cb99/f155dc33-c696-4567-9211-71ed67955d14/v1/hp.bundle.bad633d50258e65f169d.js",
+                "https://i5.walmartimages.com/dfw/63fd9f59-3fd3/bb578002-e6b5-4280-8f58-4cc7b4c7a1a2/v1/tealeaf.min.js",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-cc8c/k2-_a2f0a635-4b16-4622-9f0d-7cb9f6e9fc73.v1.svg",
+                "https://i5.walmartimages.com/dfw/63fd9f59-cb99/f155dc33-c696-4567-9211-71ed67955d14/v1/0795697fc57f39b8c9f82c39e80f36e1.woff2",
+                "https://i5.walmartimages.com/dfw/63fd9f59-fbd2/ce71da87-048e-4bff-81c1-663f19b9a60d/v1/BogleWeb-Bold.woff2",
+                "https://i5.walmartimages.com/dfw/63fd9f59-fbd2/ce71da87-048e-4bff-81c1-663f19b9a60d/v1/BogleWeb-Regular.woff2",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-1218/k2-_ce6b2cd5-7246-488c-9811-0f03b44ffd05.v982.js",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-2c86/k2-_1cf91030-5b66-42d4-88af-42da1d47cf61.v852.js",
+                "https://i5.walmartimages.com/asr/9ac4c5e8-3e93-4a44-8a43-8df1b316e9fa_1.08e53870af1625d51668362d64da82af.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/b8afda40-745f-410a-92a1-3e3334e73186_1.657d6b62004a02899d5b8602a3dcbb7f.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/92d01f05-4c76-4ebc-acd5-5cd5f8c1e30d_1.d57e1e8b8089b0009469b06e6df9c12d.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/6de8df26-80b3-4166-9cc3-14de9ff2d12e_1.5a05ebdbb2a0e2ea4eb36f308a018e8e.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/d7715ee9-097f-45e9-a82e-290d5f4b84ef_1.d983e008c4ab8097057f0bb2063ec508.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/7a2024dd-5c82-45a6-9fce-bce4042cfb7f_1.e8d220687733f62513ba28befb97d1b1.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/7daf2190-a041-4472-9987-483bed07032a_1.e98d7f28235ac31fcdf4ce6c442a98d9.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/asr/9431399e-5185-4031-9046-d8ff2c574aa3_1.4062ddc48c105ce3c4825418985458c1.jpeg?odnWidth=162&odnHeight=162&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-4b09/k2-_e70f4d3a-749c-49eb-88a7-15a3e024117c.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-4e59/k2-_976f3ed9-cca0-4aae-b625-01071e261e5f.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-f550/k2-_b8e94e9c-74ca-45c5-bcb8-669b452d9794.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-828d/k2-_dad53953-4f4c-40f3-936e-172e05430532.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-65b8/k2-_8939b375-7b4d-476f-9fd7-27e547c067af.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-2d01/k2-_9ca89232-dc64-4acf-a0f3-ea1dcb896e1a.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-e4f6/k2-_13bce056-f68c-4ed4-86fb-633822962ed8.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-e3b8/k2-_37335c21-8963-406b-9d55-99328dd95d08.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-ca28/k2-_ef5ff595-9251-4ca8-b657-c134fd6c7ff2.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-933b/k2-_fde09e75-93b7-49dd-9f59-00849b3920dc.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-ad10/k2-_b9d866a3-b34d-4fe7-869f-046231842484.v1.jpg?odnWidth=768&odnHeight=225&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-99e0/k2-_afc1cb92-41f9-475b-b562-064155abd0bd.v1.jpg?odnWidth=768&odnHeight=225&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-d51b/k2-_4f250077-6b52-421c-a116-f374a7fef83b.v1.jpg?odnWidth=433&odnHeight=250&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-bc30/k2-_b037158a-be5a-4ccf-8677-86a985ce1d25.v1.jpg?odnWidth=433&odnHeight=250&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-10af/k2-_ad1684e7-ebd9-42e9-bc93-2adcc3ac1393.v1.jpg?odnWidth=433&odnHeight=250&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-7e78/k2-_3147f799-744f-4837-a419-1ac9017d52a3.v1.jpg?odnWidth=undefined&odnHeight=[object%20Object]&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-7e79/k2-_a495eee3-e8ec-4623-9450-32f8ae682b1a.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-a02e/k2-_49314270-5bdb-4c96-8513-a7df5da9806d.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-78bc/k2-_ef34c780-e180-451e-8895-43e7714635df.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-38b2/k2-_56dff87f-2d21-4c32-b239-e3be19ade303.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-7462/k2-_affdaea8-eb8b-43a4-9c72-f543343c7299.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-d8ea/k2-_31c79b87-d8a4-4d3b-afa8-4ce524814cad.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-1960/k2-_23a70426-8955-4447-bca4-d0212ec1172b.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://i5.walmartimages.com/dfw/4ff9c6c9-c431/k2-_0cbf2f8b-edc4-4e61-88bc-6c287be7f9b4.v1.jpg?odnWidth=168&odnHeight=210&odnBg=ffffff",
+                "https://www.walmart.com/favicon.ico"
+
+
+            ]
+        }
+    ]
+}

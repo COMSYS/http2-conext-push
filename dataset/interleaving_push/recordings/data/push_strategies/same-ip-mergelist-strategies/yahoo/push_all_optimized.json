@@ -1,0 +1,75 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"de.yahoo.com",
+            "index_trigger_path": "/?p=us",
+            "content_file": "../../../html/yahoo/modified.html",
+            "critical_css_file": "../../../css/yahoo/critical.css",
+            "offset_index": 70000,
+            "offset_compressed": 17000,
+            "critical_push_streams": 1
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "de.yahoo.com",
+            "push_trigger": "/?p=us",
+            "push_resources": [
+                "https://de.yahoo.com/push__critical.css",
+
+                "https://mbp.yimg.com/sy/rq/darla/3-1-1/js/g-r-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/yui/yui-min.js",
+                "https://mbp.yimg.com/sy/ss/rapid-3.42.4.js",
+                "https://mbp.yimg.com/sy/os/mit/td/aperollup-min-5e0993e0_desktop_advance.js",
+                "https://mbp.yimg.com/sy/os/mit/td/td-applet-stream-atomic-2.0.1014/r-min.js",
+                "https://mbp.yimg.com/sy/os/mit/td/td-applet-mega-header-1.0.641/r-min.js",
+                "https://mbp.yimg.com/sy/os/mit/td/td-applet-viewer-0.1.2715/r-min.js",
+                "https://mbp.yimg.com/sy/os/mit/td/td-applet-navlinks-atomic-0.0.90/r-min.js",
+                "https://mbp.yimg.com/sy/os/mit/td/td-applet-fp-utils-0.1.285/r-min.js",
+                "https://mbp.yimg.com/sy/lq/lib/3pm/cs_0.2.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/myy/advance_desktop-viewer_0.0.5.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/myy/video_manager_0.0.172.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/myy/idletimer_0.0.3.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/myy/spacebar_scroll_0.0.3.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/sda/sdarotate_0.0.37.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/windowshade/windowshade_0.0.9.js",
+                "https://mbp.yimg.com/sy//nn/lib/metro/g/sda/sda_0.0.60.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/autocomplete-list/lang/autocomplete-list.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/color-base/color-base-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-base/anim-base-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-color/anim-color-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-xy/anim-xy-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-curve/anim-curve-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-easing/anim-easing-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-node-plugin/anim-node-plugin-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/anim-scroll/anim-scroll-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/io-form/io-form-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/io-upload-iframe/io-upload-iframe-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/queue-promote/queue-promote-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/io-queue/io-queue-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/async-queue/async-queue-min.js",
+                "https://mbp.yimg.com/sy/zz/combo?yui:/3.18.0/jsonp-url/jsonp-url-min.js",
+                "https://de.yahoo.com/lib/metro/g/myy/rapidworker_1_2_0.0.5.js",
+                "https://mbp.yimg.com/sy/os/mit/media/p/common/images/favicon_new-7483e38.svg",
+                "https://mbp.yimg.com/sy/rz/l/favicon.ico",
+                "https://mbp.yimg.com/sy/os/fp/atomic-css.13a2f165.css",
+                "https://mbp.yimg.com/sy/os/stencil/3.2.1/styles-ltr.css",
+                "https://mbp.yimg.com/sy/os/yc/css/bundle.c60a6d54.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/polyvore_0.0.3.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/advance_base_rc4_0.0.65.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/font_rc4_0.0.67.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/yahoo20_grid_0.0.146.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/video_styles_0.0.25.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/myy/advance_color_0.0.9.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/theme/viewer_modal_center_0.0.31.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/theme/yglyphs-legacy_0.0.7.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/sda/fp_sda_0.0.8.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/sda/sda_advance_0.0.10.css",
+                "https://mbp.yimg.com/sy/nn/lib/metro/g/fpfooter/advance_0.0.6.css"
+
+            ]
+        }
+    ]
+}

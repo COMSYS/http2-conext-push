@@ -1,0 +1,25 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"edition.cnn.com",
+            "index_trigger_path": "/",
+            "content_file": "../../../html/cnn/modified.html",
+            "critical_css_file": "../../../css/cnn/critical.css",
+            "offset_index": 80000,
+            "offset_compressed": 18145,
+            "critical_push_streams": 2
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "edition.cnn.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://edition.cnn.com/push__critical.css",
+                "https://edition.i.cdn.cnn.com/.a/bundles/cnn-header.bb0d864591f5bdfc609e-first-bundle.js"
+                ]
+        }
+    ]
+}

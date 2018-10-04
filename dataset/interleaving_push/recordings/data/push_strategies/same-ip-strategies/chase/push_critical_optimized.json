@@ -1,0 +1,39 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.chase.com",
+            "index_trigger_path": "/",
+            "content_file": "../../html/chase/modified.html",
+            "critical_css_file": "../../css/chase/critical.css",
+            "offset_index": 10000,
+            "offset_compressed": 3100,
+            "critical_push_streams": 14
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.chase.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.chase.com/push__critical.css",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/jquery/js/jquery-1.10.2.min.js",
+                "https://www.chase.com/c/120317/apps/chase/clientlibs/foundation/scripts/Reporting.js",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/require/js/require.min.js",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/chase-ux/js/dist/chase-ux.min.js",
+                "https://www.chase.com/etc/designs/chase-ux/css/img/ie_alert.png",
+                "https://www.chase.com/etc/designs/chase-ux/css/img/high-alert-icon.png",
+                "https://www.chase.com/etc/designs/chase-ux/css/img/checkmark.png",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans.woff",
+                "https://www.chase.com/etc/chase/appsconfig/clientconfig.js",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/icomoon.ttf?uq76pe",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/smc.ttf",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans-semibold.woff",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans-bold.woff",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/site.min.css",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/blue-ui.min.css"
+                ]
+        }
+    ]
+}

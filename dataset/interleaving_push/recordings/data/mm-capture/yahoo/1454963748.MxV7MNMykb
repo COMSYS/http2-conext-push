@@ -1,0 +1,31 @@
+
+66.218.84.140»"õ
+POST /comet HTTP/1.1
+Hostcomet.yahoo.com
+
+Connection
+keep-alive
+Content-Length248
+Originhttps://de.yahoo.com
+AuthorizationBasic token= 
+Content-Typeapplication/json
+Accept*/*u
+
+User-AgentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36"
+X-Requested-WithXMLHttpRequest 
+Refererhttps://de.yahoo.com/$
+Accept-Encodinggzip, deflate, br!
+Accept-Languageen-US,en;q=0.9"
+CookieB=686bpjpd59t91&b=3&s=mjø[{"id":"9","ext":{"timestamp":1515517222179,"host":"de.yahoo.com"},"channel":"/meta/connect","connectionType":"long-polling","clientId":"bf1onepush116.368865915155172202523061512197139.SsGjK6q.gx2G4Eazg5nXtkmxNmZbaJrf.CN5KCb0iVpVNUFkhJMlaTdLrw--"}]*„
+HTTP/1.1 200 OK3
+Access-Control-Allow-Originhttps://de.yahoo.com(
+ Access-Control-Allow-Credentialstrue 
+Content-Typeapplication/json	
+Age20%
+DateTue, 09 Jan 2018 17:00:32 GMT
+
+Connection
+keep-alive-
+Strict-Transport-Securitymax-age=31536000ƒ
+Public-Key-Pins-Report-Onlyãmax-age=2592000; pin-sha256="2oALgLKofTmeZvoZ1y/fSZg7R9jPMix8eVA6DH4o/q8="; pin-sha256="cAajgxHlj7GTSEIzIYIQxmEloOSoJq7VOaxWHfv72QM="; pin-sha256="SVqWumuteCQHvVIaALrOZXuzVVVeS7f4FGxxu6V+es4="; pin-sha256="UZJDjsNp1+4M5x9cbbdflB779y5YRBcV6Z6rBMLIrO4="; pin-sha256="JbQbUG5JMJUoI6brnx0x3vZF6jilxsapbXGVfjhN8Fg="; pin-sha256="lnsM2T/O9/J84sJFdnrpsFp3awZJ+ZZbYpCWhGloaHI="; pin-sha256="h6801m+z8v3zbgkRHpq6L29Esgfzhj89C1SyUCOQmqU="; pin-sha256="SQVGZiOrQXi+kqxcvWWE96HhfydlLVqFr4lQTqI5qqo="; pin-sha256="q5hJUnat8eyv8o81xTBIeB5cFxjaucjmelBPT2pRMo8="; pin-sha256="vPtEqrmtAhAVcGtBIep2HIHJ6IlnWQ9vlK50TciLePs="; pin-sha256="lpkiXF3lLlbN0y3y6W0c/qWqPKC7Us2JM8I7XCdEOCA="; pin-sha256="r/mIkG3eEpVdm+u/ko/cwxzOMo1bk4TyHIlByibiA5E="; pin-sha256="WoiWRyIOVNa9ihaBciRSC7XHjliYS9VwUGOIud4PB18="; pin-sha256="2fRAUXyxl4A1/XHrKNBmc8bTkzA7y4FB/GLJuNAzCqY="; pin-sha256="dolnbtzEBnELx/9lOEQ22e6OZO/QNb6VSSX2XHA3E7A="; includeSubdomains; report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-hpkp-report-only"n
+	Expect-CTamax-age=31536000, report-uri="http://csp.yahoo.com/beacon/csp?src=yahoocom-expect-ct-report-only"þ[{"channel":"/meta/connect", "timestamp":"2018-01-09T17:00:22.403793", "successful":true, "clientId":"bf1onepush116.368865915155172202523061512197139.SsGjK6q.gx2G4Eazg5nXtkmxNmZbaJrf.CN5KCb0iVpVNUFkhJMlaTdLrw--", "id":"9", "advice": {"interval":2000}}]

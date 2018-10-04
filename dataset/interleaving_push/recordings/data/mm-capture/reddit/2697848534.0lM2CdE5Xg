@@ -1,0 +1,42 @@
+
+151.101.113.140»"—
+ POST /api/request_promo HTTP/1.1
+
+:authoritywww.reddit.com
+content-length450
+accept*/* 
+originhttps://www.reddit.com"
+x-requested-withXMLHttpRequestu
+
+user-agentgMozilla/5.0 (X11; Linux x86_64) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/64.0.3281.0 Safari/537.36@
+content-type0application/x-www-form-urlencoded; charset=UTF-8"
+refererhttps://www.reddit.com/$
+accept-encodinggzip, deflate, br!
+accept-languageen-US,en;q=0.9ý
+cookieòloid=00000000000rd0xrwf.2.1515517327328.Z0FBQUFBQmFWUFdQMks5aGZScGt4RW1wSUpKU2VuQ1c4Rk1UbnY0R2JmOWl1VGc1bWUtak5tNXIxU3BManotcWFLdlE4cUdFNW9NYm1JdnRJZDhXMEVTbWtDTmtlRjE5T0ZHeUl2TUdFcnZrU0R3d1FTeGlnb3gyREZqa0dWQTJXVTJDWWxqZkNVS2k, session_tracker=8HiSbGpP3PIxIzQAVT.0.1515517327320.Z0FBQUFBQmFWUFdQSlpWQ1JtcmgzcExjS2o5VDFqX185WU1ieDEyaXJ0NWVMZk5HTEYzLTRnZGJPMG1Dd3BpTlNXbGVFZi1zZGZ2T3V0ZUVVTFpLZndnOWF4ZFlEbHctdEhBTXRJbUhRNXpXMm5WN2VfSHFObS1oNnVfaTFlUDZMNVAtY2Z4Y1hJTUU, edgebucket=vg23WtViwycbJdAyaTÂsite=+reddit.com&r=&dt=t3_7p7ffi%2Ct3_7p6y10%2Ct3_7p6xx2%2Ct3_7p6n9h%2Ct3_7p6owk%2Ct3_7p6sq3%2Ct3_7p71t5%2Ct3_7p6qqb%2Ct3_7p6v9v%2Ct3_7p69uk&loid=00000000000rd0xrwf.2.1515517327328.Z0FBQUFBQmFWUFdQMks5aGZScGt4RW1wSUpKU2VuQ1c4Rk1UbnY0R2JmOWl1VGc1bWUtak5tNXIxU3BManotcWFLdlE4cUdFNW9NYm1JdnRJZDhXMEVTbWtDTmtlRjE5T0ZHeUl2TUdFcnZrU0R3d1FTeGlnb3gyREZqa0dWQTJXVTJDWWxqZkNVS2k&placements=spotlight&referrer=&day=1&hour=18&adblock=off&whitelist_status=all_ads*ƒ
+HTTP/1.1 200 OK%
+dateTue, 09 Jan 2018 17:02:09 GMT(
+content-typetext/html; charset=UTF-8
+x-ua-compatibleIE=edge 
+access-control-allow-origin*$
+access-control-allow-methodsPOSTC
+access-control-allow-headers#Authorization, X-Reddit-Web-Client,)
+ access-control-allow-credentialsfalsed
+access-control-expose-headersCX-Ratelimit-Used, X-Ratelimit-Remaining, X-Ratelimit-Reset, X-Moose
+x-frame-options
+SAMEORIGIN!
+x-content-type-optionsnosniff!
+x-xss-protection1; mode=blockÕ
+
+set-cookieÆsession_tracker=8HiSbGpP3PIxIzQAVT.0.1515517328936.Z0FBQUFBQmFWUFdSUi0zdmVWRGZ2b0ZmSng5LXF4Vi1XbzVaWmdIcVpHUGNFX0dKNUxkMWhjZGVpb2U4Z0lkV28wMjdfQjB3SWE0R2JyUHg2aFRqUlhrVzVJdXUzb0duaWd1X1VfSHNIOWE4OHlOcWgxOHVmUHJCWkVmV3lJcUJMYlZNS1V2N1l2Z0M; Domain=reddit.com; Max-Age=7199; Path=/; expires=Tue, 09-Jan-2018 19:02:09 GMT; secure+
+cache-controlmax-age=0, must-revalidate
+x-moosemajesticI
+strict-transport-security,max-age=15552000; includeSubDomains; preload
+accept-rangesbytes
+via1.1 varnish 
+x-served-bycache-hhn1544-HHN
+x-cacheMISS
+x-cache-hits0'
+x-timerS1515517329.595035,VS0,VE455
+serversnooserv
+content-length340Ô<div data-blank=true><a href="https://alb.reddit.com/c?q=CgADAAAAAAAHad4KAAUYrVxmMQEQMAoABgAAAAAAAAAACAAHAAAAAgA=&s=6eaO-ckGrO3v6P1p7PoFwKRT94pGpErueOC_nBYSpYw=&r=http://reddit.com"><img src="https://alb.reddit.com/i.gif?q=CgADAAAAAAAHad4KAAUYrVxmMQAQMAgABwAAAAEA&s=ROw3O9DxH-IE7krLyqKlpf4qBAjDvhWLDPjrgltW4_g=" height=0 width=0/></a></div>

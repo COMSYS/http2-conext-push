@@ -1,0 +1,36 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.bestbuy.com",
+            "index_trigger_path": "/?intl=nosplash",
+            "content_file": "../../../html/bestbuy/modified.html",
+            "critical_css_file": "../../../css/bestbuy/critical.css",
+            "offset_index": 144872,
+            "offset_compressed": 33750,
+            "critical_push_streams": 12
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.bestbuy.com",
+            "push_trigger": "/?intl=nosplash",
+            "push_resources": [
+                "https://www.bestbuy.com/push__critical.css",
+                "https://assets.bbystatic.com/header-footer/hf-rt-b94cbecff317aca835df.js",
+                "https://assets.bbystatic.com/header-footer/core-js-shim-2.4.1.min.js",
+                "https://assets.bbystatic.com/header-footer/fetch-2.0.1.min.js",
+                "https://assets.bbystatic.com/header-footer/analytics-q-1.1.0-build-updates.1.min.js",
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/react/15.3.1/react-with-addons.min.js",
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/react/15.3.1/react-dom.min.js",
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/prop-types/15.5.10/prop-types.min.js",
+                "https://assets.bbystatic.com/sc-bby-libraries/externals/redux/3.5.2/redux.min.js",
+                "https://assets.bbystatic.com/sc-libraries/javascript/libraries-d3479d7f4631b94864264fdd7bdf91f3.js",
+                "https://assets.bbystatic.com/sc-libraries/javascript/require/config-7264162f4e34548dd6a83b0d20b5d711.js",
+                "https://www.bestbuy.com/akam/10/1731aa7c"
+
+                ]
+        }
+    ]
+}

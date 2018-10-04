@@ -1,0 +1,57 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.chase.com",
+            "index_trigger_path": "/?intl=nosplash%",
+            "content_file": "../../html/chase/captured.html",
+            "critical_css_file": "../../css/chase/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+       {
+            "push_host": "www.chase.com",
+            "push_trigger": "/",
+            "push_resources": [
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/site.min.css",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/blue-ui.min.css",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/jquery/js/jquery-1.10.2.min.js",
+                "https://www.chase.com/c/120317/apps/chase/clientlibs/foundation/scripts/Reporting.js",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/require/js/require.min.js",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/clientlibs/chase-ux/js/dist/chase-ux.min.js",
+                "https://www.chase.com/etc/designs/chase-ux/css/img/ie_alert.png",
+                "https://www.chase.com/etc/designs/chase-ux/css/img/high-alert-icon.png",
+                "https://www.chase.com/etc/designs/chase-ux/css/img/checkmark.png",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans.woff",
+                "https://www.chase.com/etc/chase/appsconfig/clientconfig.js",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/icomoon.ttf?uq76pe",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/smc.ttf",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans-semibold.woff",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans-bold.woff",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/img/EHL-Slice.png",
+                "https://www.chase.com/content/chase-ux/en/structured/module/geoimage/ad-geo/_jcr_content/module.html",
+                "https://www.chase.com/content/chase-ux/en/structured/module/adcarousel/homepage-prospect/_jcr_content/module.html",
+                "https://www.chase.com/content/chase-ux/en/structured/module/adtriplet/primary-triplet/_jcr_content/module.html",
+                "https://www.chase.com/c/120317/etc/designs/chase-ux/css/fonts/opensans-light.woff",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66415892&jp_aid_p=chasehome_3/trip1&jp_aid_c=tripletLinkId:default;tripletImageId:default;tripletProductTitleId:default;tripletCopyTextId:default;tripletCallToActionId:default;tripletAlignmentId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66413308&jp_aid_p=chasehome_3/trip2&jp_aid_c=tripletLinkId:default;tripletImageId:default;tripletProductTitleId:default;tripletCopyTextId:default;tripletCallToActionId:default;tripletAlignmentId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66473754&jp_aid_p=chasehome_3/trip3&jp_aid_c=tripletLinkId:default;tripletImageId:default;tripletProductTitleId:default;tripletCopyTextId:default;tripletCallToActionId:default;tripletAlignmentId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66370757&jp_aid_p=chasehome_3/hero&jp_aid_c=heroLinkId:default;heroImageId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66422671&jp_aid_p=homepage_carousel/slide1&jp_aid_c=carouselLinkId:default;carouselIconId:default;carouselCtaId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66422665&jp_aid_p=homepage_carousel/slide3&jp_aid_c=carouselLinkId:default;carouselIconId:default;carouselCtaId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66422611&jp_aid_p=homepage_carousel/slide2&jp_aid_c=carouselLinkId:default;carouselIconId:default;carouselCtaId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66422667&jp_aid_p=homepage_carousel/slide4&jp_aid_c=carouselLinkId:default;carouselIconId:default;carouselCtaId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&wa_cb=778970721&wa_aid_i=66422669&jp_aid_p=homepage_carousel/slide5&jp_aid_c=carouselLinkId:default;carouselIconId:default;carouselCtaId:default&wa_tp=13&wa_uri=https%3A%2F%2Fwww.chase.com%2F",
+                "https://www.chase.com/online/Home/images/wa01.gif?log=1&jp_pet=prospect%20a&jp_hpv=unknwn&wa_cb=1515517298173.83006&wa_uri=https%3A%2F%2Fwww.chase.com%2F&wa_pt=Credit%20Card%2C%20Mortgage%2C%20Banking%2C%20Auto%20%7C%20Chase%20Online%20%7C%20Chase.com&wa_sr=1200x960&wa_br=1199x893&wa_fv=Not%20enabled",
+                "https://www.chase.com/apps/chase/clientlibs/foundation/tagmanagerextensions.js",
+                "https://www.chase.com/apps/chase/clientlibs/foundation/scripts/Personalization.js",
+                "https://www.chase.com/apps/services/tags/https/www.chase.com/",
+                "https://www.chase.com/etc/designs/chase-ux/favicon.ico"
+                ]
+        }
+    ]
+}

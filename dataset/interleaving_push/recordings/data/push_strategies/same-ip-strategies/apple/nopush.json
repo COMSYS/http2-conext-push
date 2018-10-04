@@ -1,0 +1,17 @@
+{
+    "h2o_custom_scheduler":
+    [
+        {
+            "hostname":"www.apple.com",
+            "index_trigger_path": "/",
+            "content_file": "../../html/apple/captured.html",
+            "critical_css_file": "../../css/apple/critical.css",
+            "offset_index": 0,
+            "offset_compressed": 0,
+            "critical_push_streams": 0
+        }
+    ],
+    "push_configs":
+    [
+    ]
+}
