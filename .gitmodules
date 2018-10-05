@@ -1,0 +1,11 @@
+[submodule "software/h2o"]
+	path = software/h2o
+	url = https://github.com/worenga/h2o
+	branch = custom_scheduler
+[submodule "software/mahimahi-h2o"]
+	path = software/mahimahi-h2o
+	url = https://github.com/worenga/mahimahi-h2o
+	branch = h2o-interleaving
+[submodule "software/mitmproxy2mahimahi"]
+	path = software/mitmproxy2mahimahi
+	url = https://github.com/worenga/mitmproxy2mahimahi
