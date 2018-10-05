@@ -1,5 +1,5 @@
 # http2-conext-push 
-This repository contains source code , results, and links to additional material used in *Is the Web Ready for HTTP/2 Server Push?* by T.Zimmermann, B. Wolters, O. Hohlfeld, and K. Wehrle, to appear in the proceedings of the 2018 International Conference on emerging Networking EXperiments and Technologies (CoNEXT). 
+This repository contains source code, results, and links to additional material used in *Is the Web Ready for HTTP/2 Server Push?* by T.Zimmermann, B. Wolters, O. Hohlfeld, and K. Wehrle, to appear in the proceedings of the 2018 International Conference on emerging Networking EXperiments and Technologies (CoNEXT). 
 
 ## HTTP/2 and Server Push 
 This work is partly based on our previous HTTP/2 Server Push adoption and QoE studies. You can find live adoption measurements and a brief overview at https://push.netray.io/ 
