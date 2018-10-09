@@ -5,7 +5,7 @@ This repository contains source code, results, and links to additional material 
 This work is partly based on our previous HTTP/2 Server Push adoption and QoE studies. You can find live adoption measurements and a brief overview at https://push.netray.io/ 
 
 ## Additional Materials 
-We are currently preparing the source code documentation, manuals, and additional materials, are made  available in the next weeks.
+A concise discussion of our testbed, the results presented in the paper, as well as additional evaluation and information can is available [here](https://push.netray.io/interleaving.html). 
 
 ## Contact
 In case of any questions regarding the paper and materials, please contact [Torsten Zimmermann](https://www.comsys.rwth-aachen.de/team/torsten-zimmermann/).
