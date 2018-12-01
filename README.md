@@ -6,6 +6,7 @@ This work is partly based on our previous HTTP/2 Server Push adoption and QoE st
 
 ## Additional Materials 
 A concise discussion of our testbed, the results presented in the paper, as well as additional evaluation and information is available [here](https://push.netray.io/interleaving.html). 
+Installation instructions on how to run the software used to performed the experiments in our paper can be found [here](../blob/master/README-software.md)
 
 ## Contact
 In case of any questions regarding the paper and materials, please contact [Torsten Zimmermann](https://www.comsys.rwth-aachen.de/team/torsten-zimmermann/).
