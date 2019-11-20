@@ -1,4 +1,4 @@
-# Recording Webpages using Mahimahi and Mitmproxy
+# Replaying Websites with Mahimahi-h2o
 
 ## Introduction
 In our paper we conducted experiments by recording and replaying websites using the [Mahimahi](http://mahimahi.mit.edu) by Netravali et al.
