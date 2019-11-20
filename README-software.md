@@ -67,6 +67,6 @@ You should now be able to replay some of the recordings in this repository using
 
 ```
 cd dataset/interleaving_push/recordings
-mm-webreplay data/mm-capture/ebay data/push_strategies/same-ip-mergelist-strategies/wikipedia/nopush.json same-ip mm-delay 100 browsertime -n 1 --xvfb --video --chrome.args="--ssl-version-max=tls1.2"' --chrome.collectNetLog  --chrome.args="--disable-web-security" --speedIndex https://en.wikipedia.org/wiki/Barack_Obama
+mm-webreplay data/mm-capture/wikipedia data/push_strategies/same-ip-mergelist-strategies/wikipedia/nopush.json same-ip mm-delay 100 browsertime -n 1 --xvfb --video --chrome.args="--ssl-version-max=tls1.2" --chrome.collectNetLog  --chrome.args="--disable-web-security" --speedIndex https://en.wikipedia.org/wiki/Barack_Obama
 ```
 Check out [run_interleaving_eval.py](../blob/master/dataset/interleaving_push/eval/run_interleaving_eval.py) for an automated instrumentation of browsertime.
