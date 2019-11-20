@@ -10,7 +10,7 @@ git submodule update --init --recursive
 Moreover, we want to record the website resources that are delivered via HTTP/2. To this end we need a recording infrastructure capable of recording HTTP/2 content, which is currently also not possible with mahimahi.
 To this end we use the recording function of [mitmproxy](https://mitmproxy.org/) and we wrote an [exporter](https://github.com/worenga/mitmproxy2mahimahi) that can convert the mitmproxy recordings into the Mahimahi Protobuf format.
 
-The following instructions have been tested on Ubuntu 18.04.
+The following instructions have been tested on Ubuntu 18.04 LTS (bionic) and OpenSSL 1.1.0g.
 
 
 ## Installing H2O Webserver
